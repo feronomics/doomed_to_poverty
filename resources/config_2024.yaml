@@ -1,0 +1,94 @@
+## Poverty trap in Guatemala? - ENEI 2024 variable config
+## Comments = variable description.
+## NOTE: ENEI 2024 uses a renumbered questionnaire (P05*/P06* income codes,
+## lowercase id/weight). Secondary-occupation revenue is a single 'net revenue'
+## plus 'self-consumption'; indemnizations are split into accident/layoff and
+## sit in labor_vars. 'Head of household - food' is not collected.
+## ENEI 2024 also drops lottery/inheritances/asset & shares selling from no_labor_vars.
+
+id_vars:
+- NUM_HOGAR               # household id
+
+demographic_vars:
+- DOMINIO                 # area / dominio (Urbano Metropolitano, Resto Urbano, Rural Nacional)
+- FACTOR                  # expansion factor (survey weight)
+- P02A02                  # SEXO (gender)
+- P02A03                  # EDAD (age)
+- P02A08                  # ETNIA (ethnicity)
+- P03A03A                 # NIVEL EDUC (education level)
+- OCUPADOS                # OCUPADOS (employment status)
+
+labor_vars:
+- P05D01                  # wage - primary occupation
+- P05D02C                 # extra hours - primary occupation
+- P05D03B                 # comissions - primary occupation
+- P05G10                  # wage - secondary occupation
+- P05G12B                 # extra hours and comissions - secondary occupation
+- P05E10                  # non-agricultural revenue - primary occupation
+- P05E11                  # agricultural revenue - primary occupation
+- P05E12B                 # self-consumption - primary occupation
+- P05G26                  # net revenue - secondary occupation
+- P05G27B                 # self-consumption - secondary occupation
+- P05D08B                 # worked during vacations
+- P05D09B                 # 14th salary - primary occupation
+- P05D10B                 # 13th salary - primary occupation
+- P05D11B                 # vacation bonus
+- P05D12B                 # 15th salary
+- P05D07B                 # Productivity Bonus
+- P05D13B                 # accident indemnization
+- P05D14B                 # layoff indemnization
+- P05G13B                 # 14th salary - secondary occupation
+- P05G14B                 # 13th salary - secondary occupation
+
+add_labor_vars:
+- P05D04B                 # Food - primary occupation
+- P05D05B                 # Housing - primary occupation
+- P05D06B                 # Transportation - primary occupation
+- P05G11B                 # Food, housing and transportation - secondary occupation
+
+no_labor_vars:
+- P06A01B                 # rentals
+- P06A02B                 # interests or dividends
+- P06A03B                 # donations
+- P06A04B                 # allimony payments
+- P06A05B                 # pensions
+- P06A06B                 # scholarships or transfers
+- P06A07B                 # unemployment insurance
+- P06B01B                 # harvest selling
+- P06B02B                 # Other job
+- P06B03B                 # Other income
+- P06B04B                 # brand property
+
+remittance_vars:
+- P06C02B                 # remittances - month1
+- P06C03B                 # remittances - month2
+- P06C04B                 # remittances - month3
+
+## ---- Monthlyization -------------------------------------------------------
+## Variables reported as a total over a reference period, divided to monthly.
+## Cash/in-kind income already monthly and remittances are NOT listed here.
+
+div_12:                   # annual amounts -> /12
+- P05D08B                 # worked during vacations
+- P05D09B                 # 14th salary - primary occupation
+- P05D10B                 # 13th salary - primary occupation
+- P05D11B                 # vacation bonus
+- P05D12B                 # 15th salary
+- P05D07B                 # Productivity Bonus
+- P05D13B                 # accident indemnization
+- P05D14B                 # layoff indemnization
+- P05G13B                 # 14th salary - secondary occupation
+- P05G14B                 # 13th salary - secondary occupation
+- P06B01B                 # harvest selling
+- P06B02B                 # Other job
+- P06B03B                 # Other income
+- P06B04B                 # brand property
+
+div_3:                    # quarterly amounts -> /3
+- P06A01B                 # rentals
+- P06A02B                 # interests or dividends
+- P06A03B                 # donations
+- P06A04B                 # allimony payments
+- P06A05B                 # pensions
+- P06A06B                 # scholarships or transfers
+- P06A07B                 # unemployment insurance

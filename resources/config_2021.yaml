@@ -1,0 +1,97 @@
+## Poverty trap in Guatemala? - ENEI 2021 variable config
+## Comments = variable description.
+
+id_vars:
+- NUM_HOGAR               # household id
+
+demographic_vars:
+- DOMINIO                 # area / dominio (Urbano Metropolitano, Resto Urbano, Rural Nacional)
+- FACTOR                  # expansion factor (survey weight)
+- PPA02                   # SEXO (gender)
+- PPA03                   # EDAD (age)
+- PPA06                   # ETNIA (ethnicity)
+- P03A05A                 # NIVEL EDUC (education level)
+- OCUPADOS                # OCUPADOS (employment status)
+
+labor_vars:
+- P04C10                  # wage - primary occupation
+- P04C11C                 # extra hours - primary occupation
+- P04C12B                 # comissions - primary occupation
+- P04D06                  # wage - secondary occupation
+- P04D09B                 # extra hours and comissions - secondary occupation
+- P04C22                  # non-agricultural revenue - primary occupation
+- P04C23                  # agricultural revenue - primary occupation
+- P04D12                  # non-agricultural revenue - secondary occupation
+- P04D13                  # agricultural revenue - secondary occupation
+- P04C13B                 # worked during vacations
+- P04C14B                 # 14th salary - primary occupation
+- P04C15B                 # 13th salary - primary occupation
+- P04C16B                 # vacation bonus
+- P04C17B                 # 15th salary
+- P04C21B                 # Productivity Bonus
+- P04D08B                 # 15th salary, productivity or vacation bonus - secondary occupation
+- P04D10B                 # 14th salary - secondary occupation
+- P04D11B                 # 13th salary - secondary occupation
+
+add_labor_vars:
+- P04C18B                 # Food - primary occupation
+- P04C19B                 # Housing - primary occupation
+- P04C20B                 # Transportation - primary occupation
+- P04D07B                 # Food, housing and transportation - secondary occupation
+- P05A22B                 # Head of household - food. Differs from ENEI 2018/2019 (P05A21B)
+
+no_labor_vars:
+- P05A01B                 # rentals
+- P05A02B                 # interests or dividends
+- P05A03B                 # donations
+- P05A04B                 # allimony payments
+- P05A05B                 # pensions
+- P05A06B                 # scholarships or transfers
+- P05A07B                 # unemployment insurance
+- P05A14B                 # harvest selling
+- P05A15B                 # Other job
+- P05A16B                 # Other income
+- P05A08B                 # brand property
+- P05A09B                 # indemnizations
+- P05A10B                 # lottery awards
+- P05A11B                 # inheritances
+- P05A12B                 # asset selling
+- P05A13B                 # shares/stocks selling
+
+remittance_vars:
+- P05A18B                 # remittances - month1
+- P05A19B                 # remittances - month2
+- P05A20B                 # remittances - month3
+
+## ---- Monthlyization -------------------------------------------------------
+## Variables reported as a total over a reference period, divided to monthly.
+## Cash/in-kind income already monthly and remittances are NOT listed here.
+
+div_12:                   # annual amounts -> /12
+- P04C13B                 # worked during vacations
+- P04C14B                 # 14th salary - primary occupation
+- P04C15B                 # 13th salary - primary occupation
+- P04C16B                 # vacation bonus
+- P04C17B                 # 15th salary
+- P04C21B                 # Productivity Bonus
+- P04D08B                 # 15th salary, productivity or vacation bonus - secondary occupation
+- P04D10B                 # 14th salary - secondary occupation
+- P04D11B                 # 13th salary - secondary occupation
+- P05A14B                 # harvest selling
+- P05A15B                 # Other job
+- P05A16B                 # Other income
+- P05A08B                 # brand property
+- P05A09B                 # indemnizations
+- P05A10B                 # lottery awards
+- P05A11B                 # inheritances
+- P05A12B                 # asset selling
+- P05A13B                 # shares/stocks selling
+
+div_3:                    # quarterly amounts -> /3
+- P05A01B                 # rentals
+- P05A02B                 # interests or dividends
+- P05A03B                 # donations
+- P05A04B                 # allimony payments
+- P05A05B                 # pensions
+- P05A06B                 # scholarships or transfers
+- P05A07B                 # unemployment insurance

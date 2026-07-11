@@ -1,0 +1,13 @@
+# Doomed to Poverty? Empirical Evidence from Guatemala's Income Dynamics 2016-2025
+
+The purpose of this package is to provide the reproduceble results of our investigation. This includes the all the scripts for cleaning, merging and provide outputs on the data
+
+
+We keept a script per National Survey beacause of inconsistency the column names of the database
+# Sources
+
+All the data used on this research was from ENEI and ENCOVI. ENCOVI it's made every 5 years and ENEI it's like a tracker of whats happens in the mean time but only selection of special variables. 
+
+# ENEI
+
+The idea of ENEI it's to track the dynamic incomes, so we

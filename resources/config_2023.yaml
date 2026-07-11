@@ -1,0 +1,98 @@
+## Poverty trap in Guatemala? - ENCOVI 2023 variable config
+## Comments = variable description.
+## NOTE: ENCOVI 2023 is a different survey from ENEI. Income codes are P10*/P11*;
+## ethnicity labels carry a "?" suffix ("Ladino / mestizo?", "Extranjero?"); it
+## has NO 'scholarships or transfers' (3m) and NO 'Head of household - food'.
+
+id_vars:
+- NO_HOGAR                # household id
+
+demographic_vars:
+- DOMINIO                 # area / dominio (Urbano Metropolitano, Resto Urbano, Rural Nacional)
+- FACTOR                  # expansion factor (survey weight)
+- PPA02                   # SEXO (gender)
+- PPA03                   # EDAD (age)
+- P04A07                  # ETNIA (ethnicity)
+- P06B26A                 # NIVEL EDUC (education level)
+- OCUPADOS                # OCUPADOS (employment status)
+
+labor_vars:
+- P10C27                  # wage - primary occupation
+- P10C28C                 # extra hours - primary occupation
+- P10C29B                 # comissions - primary occupation
+- P10D09                  # wage - secondary occupation
+- P10D11B                 # extra hours and comissions - secondary occupation
+- P10C47                  # non-agricultural revenue - primary occupation
+- P10C48                  # agricultural revenue - primary occupation
+- P10C50B                 # self-consumption - primary occupation
+- P10D14                  # net revenue - secondary occupation
+- P10D16B                 # self-consumption - secondary occupation
+- P10C30B                 # worked during vacations
+- P10C31B                 # 14th salary - primary occupation
+- P10C32B                 # 13th salary - primary occupation
+- P10C33B                 # vacation bonus
+- P10C34B                 # 15th salary
+- P10C38B                 # Productivity Bonus
+- P10C39B                 # accident indemnization
+- P10C40B                 # layoff indemnization
+- P10D12B                 # 14th salary - secondary occupation
+- P10D13B                 # 13th salary - secondary occupation
+
+add_labor_vars:
+- P10C35B                 # Food - primary occupation
+- P10C36B                 # Housing - primary occupation
+- P10C37B                 # Transportation - primary occupation
+- P10D10B                 # Food, housing and transportation - secondary occupation
+
+no_labor_vars:
+- P11A01B                 # rentals
+- P11A02B                 # interests or dividends
+- P11A03B                 # donations
+- P11A04B                 # allimony payments
+- P11A05B                 # pensions
+- P11A06B                 # unemployment insurance
+- P11B01B                 # harvest selling
+- P11B02B                 # Other business (non-agro)
+- P11B03B                 # brand property
+- P11B04B                 # lottery awards
+- P11B05B                 # inheritances
+- P11B06B                 # asset selling
+- P11B07B                 # shares/stocks selling
+- P11B08B                 # other income
+
+remittance_vars:
+- P11C02B                 # remittances - month1
+- P11C03B                 # remittances - month2
+- P11C04B                 # remittances - month3
+
+## ---- Monthlyization -------------------------------------------------------
+## Variables reported as a total over a reference period, divided to monthly.
+## Cash/in-kind income already monthly and remittances are NOT listed here.
+
+div_12:                   # annual amounts -> /12
+- P10C30B                 # worked during vacations
+- P10C31B                 # 14th salary - primary occupation
+- P10C32B                 # 13th salary - primary occupation
+- P10C33B                 # vacation bonus
+- P10C34B                 # 15th salary
+- P10C38B                 # Productivity Bonus
+- P10C39B                 # accident indemnization
+- P10C40B                 # layoff indemnization
+- P10D12B                 # 14th salary - secondary occupation
+- P10D13B                 # 13th salary - secondary occupation
+- P11B01B                 # harvest selling
+- P11B02B                 # Other business (non-agro)
+- P11B03B                 # brand property
+- P11B04B                 # lottery awards
+- P11B05B                 # inheritances
+- P11B06B                 # asset selling
+- P11B07B                 # shares/stocks selling
+- P11B08B                 # other income
+
+div_3:                    # quarterly amounts -> /3
+- P11A01B                 # rentals
+- P11A02B                 # interests or dividends
+- P11A03B                 # donations
+- P11A04B                 # allimony payments
+- P11A05B                 # pensions
+- P11A06B                 # unemployment insurance
