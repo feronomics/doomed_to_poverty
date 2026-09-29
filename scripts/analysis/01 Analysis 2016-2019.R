@@ -29,10 +29,10 @@ grid <- data.frame(y1_1 = seq(0, 7000, length.out = 100),
                    y3_1 = seq(0, 7000, length.out = 100),
                    y4_1 = seq(0, 7000, length.out = 100))
 
-ci_ylab    <- loess_ci(y1_2 ~ y1_1, data_general, grid)
-ci_yad     <- loess_ci(y2_2 ~ y2_1, data_general, grid)
-ci_ynonlab <- loess_ci(y3_2 ~ y3_1, data_general, grid)
-ci_rem     <- loess_ci(y4_2 ~ y4_1, data_general, grid)
+ci_ylab    <- loess_ci(y1_2 ~ y1_1, data_general, grid, span_label = "2016-2019 General y1")
+ci_yad     <- loess_ci(y2_2 ~ y2_1, data_general, grid, span_label = "2016-2019 General y2")
+ci_ynonlab <- loess_ci(y3_2 ~ y3_1, data_general, grid, span_label = "2016-2019 General y3")
+ci_rem     <- loess_ci(y4_2 ~ y4_1, data_general, grid, span_label = "2016-2019 General y4")
 
 grid_long <- bind_rows(
   data.frame(x = grid$y1_1, ci_ylab,    def = "Labor income"),
@@ -103,8 +103,10 @@ plot_capacity_curve(
   samples = c("p99", "p90", "p50"),
   labels  = c("Bottom 99", "Bottom 90", "Bottom 50"),
   y_var   = "y1",
-  title   = "Capacity Curve 2016-2018: By Percentile"
+  title   = "Capacity Curve 2016-2019: By Percentile"
 )
 
 ggsave(file.path(OUTPUT_DIR_1619, "Figure5.png"), width = 7, height = 7, dpi = 300)
 
+
+dump_span_log(file.path(OUTPUT_DIR_1619, "bandwidth_selection_summary.csv"))

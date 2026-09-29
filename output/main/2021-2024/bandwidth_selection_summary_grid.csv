@@ -1,0 +1,461 @@
+"regression","span","cv_mse","n_predicted","n_rows","n_extrapolated"
+"2021-2024 General y1",0.15,469804.69850512,276,276,3
+"2021-2024 General y1",0.175,460055.301393919,276,276,3
+"2021-2024 General y1",0.2,449569.737646615,276,276,3
+"2021-2024 General y1",0.225,441313.051837321,276,276,3
+"2021-2024 General y1",0.25,436845.216868251,276,276,3
+"2021-2024 General y1",0.275,434194.699101194,276,276,3
+"2021-2024 General y1",0.3,432988.821317913,276,276,3
+"2021-2024 General y1",0.325,433170.207701624,276,276,3
+"2021-2024 General y1",0.35,433829.594675304,276,276,3
+"2021-2024 General y1",0.375,436354.989684392,276,276,3
+"2021-2024 General y1",0.4,439270.992286781,276,276,3
+"2021-2024 General y1",0.425,439803.033106016,276,276,3
+"2021-2024 General y1",0.45,441058.28156845,276,276,3
+"2021-2024 General y1",0.475,441680.750058994,276,276,3
+"2021-2024 General y1",0.5,442384.788231794,276,276,3
+"2021-2024 General y1",0.525,442414.365002325,276,276,3
+"2021-2024 General y1",0.55,442327.978807144,276,276,3
+"2021-2024 General y1",0.575,442536.436986091,276,276,3
+"2021-2024 General y1",0.6,442699.46472764,276,276,3
+"2021-2024 General y1",0.625,442586.507759958,276,276,3
+"2021-2024 General y1",0.65,442926.150023743,276,276,3
+"2021-2024 General y1",0.675,443787.556568018,276,276,3
+"2021-2024 General y1",0.7,445470.254095844,276,276,3
+"2021-2024 General y1",0.725,447815.804755608,276,276,3
+"2021-2024 General y1",0.75,449001.428381844,276,276,3
+"2021-2024 General y1",0.775,450150.619599051,276,276,3
+"2021-2024 General y1",0.8,451603.622709068,276,276,3
+"2021-2024 General y1",0.825,453457.817236877,276,276,3
+"2021-2024 General y1",0.85,454354.716913793,276,276,3
+"2021-2024 General y1",0.875,455495.858362606,276,276,3
+"2021-2024 General y1",0.9,455653.211040425,276,276,3
+"2021-2024 General y1",0.925,456488.132273073,276,276,3
+"2021-2024 General y1",0.95,456583.305457932,276,276,3
+"2021-2024 General y1",0.975,457417.556894098,276,276,3
+"2021-2024 General y1",1,461830.89475797,276,276,3
+"2021-2024 General y2",0.15,469814.159110638,276,276,3
+"2021-2024 General y2",0.175,459917.06391368,276,276,3
+"2021-2024 General y2",0.2,449774.31269976,276,276,3
+"2021-2024 General y2",0.225,439674.497052521,276,276,3
+"2021-2024 General y2",0.25,434548.569708437,276,276,3
+"2021-2024 General y2",0.275,431513.542062227,276,276,3
+"2021-2024 General y2",0.3,430655.239569521,276,276,3
+"2021-2024 General y2",0.325,431253.876162802,276,276,3
+"2021-2024 General y2",0.35,432157.583753357,276,276,3
+"2021-2024 General y2",0.375,433420.064891934,276,276,3
+"2021-2024 General y2",0.4,436240.988040342,276,276,3
+"2021-2024 General y2",0.425,436363.85048066,276,276,3
+"2021-2024 General y2",0.45,437480.539494049,276,276,3
+"2021-2024 General y2",0.475,438252.783602978,276,276,3
+"2021-2024 General y2",0.5,438459.226927007,276,276,3
+"2021-2024 General y2",0.525,438810.780001791,276,276,3
+"2021-2024 General y2",0.55,438737.655531655,276,276,3
+"2021-2024 General y2",0.575,438779.097195073,276,276,3
+"2021-2024 General y2",0.6,438868.709383773,276,276,3
+"2021-2024 General y2",0.625,438688.723638918,276,276,3
+"2021-2024 General y2",0.65,438964.055343151,276,276,3
+"2021-2024 General y2",0.675,439634.377336413,276,276,3
+"2021-2024 General y2",0.7,441091.564380182,276,276,3
+"2021-2024 General y2",0.725,443931.039025546,276,276,3
+"2021-2024 General y2",0.75,445168.351358394,276,276,3
+"2021-2024 General y2",0.775,446326.127441863,276,276,3
+"2021-2024 General y2",0.8,448080.69406228,276,276,3
+"2021-2024 General y2",0.825,449832.682213385,276,276,3
+"2021-2024 General y2",0.85,450934.268876157,276,276,3
+"2021-2024 General y2",0.875,451175.78459187,276,276,3
+"2021-2024 General y2",0.9,452275.747168932,276,276,3
+"2021-2024 General y2",0.925,452808.793065637,276,276,3
+"2021-2024 General y2",0.95,453015.3470196,276,276,3
+"2021-2024 General y2",0.975,453343.242155714,276,276,3
+"2021-2024 General y2",1,457554.746539253,276,276,3
+"2021-2024 General y3",0.15,531096.995882301,276,276,2
+"2021-2024 General y3",0.175,513211.700232861,276,276,2
+"2021-2024 General y3",0.2,502493.17181368,276,276,2
+"2021-2024 General y3",0.225,495794.795113362,276,276,2
+"2021-2024 General y3",0.25,491490.862549452,276,276,2
+"2021-2024 General y3",0.275,488072.66743135,276,276,2
+"2021-2024 General y3",0.3,484931.478641244,276,276,2
+"2021-2024 General y3",0.325,484692.56399374,276,276,2
+"2021-2024 General y3",0.35,483638.274095374,276,276,2
+"2021-2024 General y3",0.375,483741.888534702,276,276,2
+"2021-2024 General y3",0.4,483004.233809993,276,276,2
+"2021-2024 General y3",0.425,482932.338503152,276,276,2
+"2021-2024 General y3",0.45,482557.974346739,276,276,2
+"2021-2024 General y3",0.475,482616.214836104,276,276,2
+"2021-2024 General y3",0.5,482372.533849129,276,276,2
+"2021-2024 General y3",0.525,482090.239749191,276,276,2
+"2021-2024 General y3",0.55,481888.150131426,276,276,2
+"2021-2024 General y3",0.575,481676.816122188,276,276,2
+"2021-2024 General y3",0.6,481766.117674765,276,276,2
+"2021-2024 General y3",0.625,481497.483746498,276,276,2
+"2021-2024 General y3",0.65,482144.974549427,276,276,2
+"2021-2024 General y3",0.675,483120.408311965,276,276,2
+"2021-2024 General y3",0.7,485198.803115904,276,276,2
+"2021-2024 General y3",0.725,487591.203896635,276,276,2
+"2021-2024 General y3",0.75,489138.116043187,276,276,2
+"2021-2024 General y3",0.775,490522.81205242,276,276,2
+"2021-2024 General y3",0.8,491709.310552936,276,276,2
+"2021-2024 General y3",0.825,495226.558474258,276,276,2
+"2021-2024 General y3",0.85,496932.257228673,276,276,2
+"2021-2024 General y3",0.875,498634.725456547,276,276,2
+"2021-2024 General y3",0.9,501302.459726093,276,276,2
+"2021-2024 General y3",0.925,502656.767479058,276,276,2
+"2021-2024 General y3",0.95,503924.022797704,276,276,2
+"2021-2024 General y3",0.975,505105.727552509,276,276,2
+"2021-2024 General y3",1,509919.345802831,276,276,2
+"2021-2024 General y4",0.15,533574.462010034,276,276,2
+"2021-2024 General y4",0.175,524032.314654139,276,276,2
+"2021-2024 General y4",0.2,514693.022329457,276,276,2
+"2021-2024 General y4",0.225,509044.143008844,276,276,2
+"2021-2024 General y4",0.25,503424.660478841,276,276,2
+"2021-2024 General y4",0.275,500396.81007319,276,276,2
+"2021-2024 General y4",0.3,498672.861553744,276,276,2
+"2021-2024 General y4",0.325,497572.825053698,276,276,2
+"2021-2024 General y4",0.35,496954.047007767,276,276,2
+"2021-2024 General y4",0.375,497314.877081446,276,276,2
+"2021-2024 General y4",0.4,496664.217004199,276,276,2
+"2021-2024 General y4",0.425,496454.570483526,276,276,2
+"2021-2024 General y4",0.45,496714.812919639,276,276,2
+"2021-2024 General y4",0.475,496764.814800971,276,276,2
+"2021-2024 General y4",0.5,496534.839931868,276,276,2
+"2021-2024 General y4",0.525,496464.150107868,276,276,2
+"2021-2024 General y4",0.55,496925.901646299,276,276,2
+"2021-2024 General y4",0.575,497241.278504736,276,276,2
+"2021-2024 General y4",0.6,498015.982030344,276,276,2
+"2021-2024 General y4",0.625,497890.709747175,276,276,2
+"2021-2024 General y4",0.65,497554.622491267,276,276,2
+"2021-2024 General y4",0.675,498747.690134489,276,276,2
+"2021-2024 General y4",0.7,500199.828532782,276,276,2
+"2021-2024 General y4",0.725,501996.247785605,276,276,2
+"2021-2024 General y4",0.75,504167.363918595,276,276,2
+"2021-2024 General y4",0.775,505998.569627552,276,276,2
+"2021-2024 General y4",0.8,507680.619235415,276,276,2
+"2021-2024 General y4",0.825,511832.924827668,276,276,2
+"2021-2024 General y4",0.85,514816.743541838,276,276,2
+"2021-2024 General y4",0.875,516392.563438766,276,276,2
+"2021-2024 General y4",0.9,519576.648339004,276,276,2
+"2021-2024 General y4",0.925,520896.120144944,276,276,2
+"2021-2024 General y4",0.95,522757.840398736,276,276,2
+"2021-2024 General y4",0.975,524665.906499936,276,276,2
+"2021-2024 General y4",1,530315.831818765,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Males",0.15,674479.303204664,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Males",0.175,666869.15697318,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Males",0.2,661820.687914227,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Males",0.225,659976.53902925,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Males",0.25,655641.811858032,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Males",0.275,652633.908417181,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Males",0.3,650061.955670672,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Males",0.325,647162.190475433,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Males",0.35,643470.996393395,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Males",0.375,640835.873790996,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Males",0.4,639407.95264093,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Males",0.425,638312.61794489,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Males",0.45,637116.203460362,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Males",0.475,635626.991785842,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Males",0.5,634970.825180431,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Males",0.525,634832.071376305,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Males",0.55,634593.395594622,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Males",0.575,633970.222928912,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Males",0.6,633770.20462766,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Males",0.625,633795.991301959,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Males",0.65,634214.97980239,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Males",0.675,634288.71718594,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Males",0.7,636036.080282721,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Males",0.725,637869.77509407,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Males",0.75,640174.072349907,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Males",0.775,642397.817772111,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Males",0.8,644799.275286707,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Males",0.825,647519.880142884,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Males",0.85,651965.36588324,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Males",0.875,656188.861284549,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Males",0.9,659674.026314379,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Males",0.925,663338.636613669,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Males",0.95,666294.862453108,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Males",0.975,668374.011705416,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Males",1,677637.509328561,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Females",0.15,664166.977658231,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Females",0.175,648286.428351593,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Females",0.2,635524.37302492,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Females",0.225,621003.819149918,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Females",0.25,616287.720703244,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Females",0.275,610008.398436281,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Females",0.3,606366.702611989,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Females",0.325,602725.050819759,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Females",0.35,600898.075861742,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Females",0.375,597550.030677612,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Females",0.4,596355.406126135,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Females",0.425,595888.65475303,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Females",0.45,594894.446131762,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Females",0.475,593775.894472398,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Females",0.5,593066.977421797,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Females",0.525,592608.505929549,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Females",0.55,592078.424390927,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Females",0.575,591315.573567051,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Females",0.6,590746.634439571,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Females",0.625,590586.101474227,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Females",0.65,591828.717751975,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Females",0.675,592435.136171547,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Females",0.7,592411.064461838,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Females",0.725,592610.162062316,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Females",0.75,592975.752982855,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Females",0.775,592801.488941648,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Females",0.8,592804.754696778,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Females",0.825,592807.633887105,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Females",0.85,592223.74635587,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Females",0.875,590850.602475724,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Females",0.9,589859.778879209,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Females",0.925,589278.750862942,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Females",0.95,589796.919419892,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Females",0.975,592352.99131884,276,276,2
+"Capacity Curve 2021-2024: Males vs. Females Females",1,595383.618353211,276,276,2
+"Capacity Curve 2021-2024: Urban vs. Rural Urban",0.15,492791.555646165,276,276,3
+"Capacity Curve 2021-2024: Urban vs. Rural Urban",0.175,485247.206471736,276,276,3
+"Capacity Curve 2021-2024: Urban vs. Rural Urban",0.2,484138.42765463,276,276,3
+"Capacity Curve 2021-2024: Urban vs. Rural Urban",0.225,481309.71008133,276,276,3
+"Capacity Curve 2021-2024: Urban vs. Rural Urban",0.25,479157.135349357,276,276,3
+"Capacity Curve 2021-2024: Urban vs. Rural Urban",0.275,476314.319780673,276,276,3
+"Capacity Curve 2021-2024: Urban vs. Rural Urban",0.3,475816.040274044,276,276,3
+"Capacity Curve 2021-2024: Urban vs. Rural Urban",0.325,474776.250214894,276,276,3
+"Capacity Curve 2021-2024: Urban vs. Rural Urban",0.35,474787.174405283,276,276,3
+"Capacity Curve 2021-2024: Urban vs. Rural Urban",0.375,474662.573462801,276,276,3
+"Capacity Curve 2021-2024: Urban vs. Rural Urban",0.4,475063.648286007,276,276,3
+"Capacity Curve 2021-2024: Urban vs. Rural Urban",0.425,475242.493012552,276,276,3
+"Capacity Curve 2021-2024: Urban vs. Rural Urban",0.45,475329.153520754,276,276,3
+"Capacity Curve 2021-2024: Urban vs. Rural Urban",0.475,475424.846573924,276,276,3
+"Capacity Curve 2021-2024: Urban vs. Rural Urban",0.5,475728.398445131,276,276,3
+"Capacity Curve 2021-2024: Urban vs. Rural Urban",0.525,475434.055664472,276,276,3
+"Capacity Curve 2021-2024: Urban vs. Rural Urban",0.55,475036.631180244,276,276,3
+"Capacity Curve 2021-2024: Urban vs. Rural Urban",0.575,474270.898511417,276,276,3
+"Capacity Curve 2021-2024: Urban vs. Rural Urban",0.6,474027.156469255,276,276,3
+"Capacity Curve 2021-2024: Urban vs. Rural Urban",0.625,474142.564475177,276,276,3
+"Capacity Curve 2021-2024: Urban vs. Rural Urban",0.65,474321.71255703,276,276,3
+"Capacity Curve 2021-2024: Urban vs. Rural Urban",0.675,474230.037756571,276,276,3
+"Capacity Curve 2021-2024: Urban vs. Rural Urban",0.7,474045.688353653,276,276,3
+"Capacity Curve 2021-2024: Urban vs. Rural Urban",0.725,474769.589095545,276,276,3
+"Capacity Curve 2021-2024: Urban vs. Rural Urban",0.75,475882.529679438,276,276,3
+"Capacity Curve 2021-2024: Urban vs. Rural Urban",0.775,477107.381842709,276,276,3
+"Capacity Curve 2021-2024: Urban vs. Rural Urban",0.8,478311.519283221,276,276,3
+"Capacity Curve 2021-2024: Urban vs. Rural Urban",0.825,480421.004902987,276,276,3
+"Capacity Curve 2021-2024: Urban vs. Rural Urban",0.85,482137.283891604,276,276,3
+"Capacity Curve 2021-2024: Urban vs. Rural Urban",0.875,483697.87702493,276,276,3
+"Capacity Curve 2021-2024: Urban vs. Rural Urban",0.9,485395.432155575,276,276,3
+"Capacity Curve 2021-2024: Urban vs. Rural Urban",0.925,488287.616036825,276,276,3
+"Capacity Curve 2021-2024: Urban vs. Rural Urban",0.95,491693.732528603,276,276,3
+"Capacity Curve 2021-2024: Urban vs. Rural Urban",0.975,495648.78768232,276,276,3
+"Capacity Curve 2021-2024: Urban vs. Rural Urban",1,507533.406220229,276,276,3
+"Capacity Curve 2021-2024: Urban vs. Rural Rural",0.15,991506.079279638,276,276,2
+"Capacity Curve 2021-2024: Urban vs. Rural Rural",0.175,978573.556260186,276,276,2
+"Capacity Curve 2021-2024: Urban vs. Rural Rural",0.2,971385.097445795,276,276,2
+"Capacity Curve 2021-2024: Urban vs. Rural Rural",0.225,972186.542502857,276,276,2
+"Capacity Curve 2021-2024: Urban vs. Rural Rural",0.25,972622.098404185,276,276,2
+"Capacity Curve 2021-2024: Urban vs. Rural Rural",0.275,972919.407603341,276,276,2
+"Capacity Curve 2021-2024: Urban vs. Rural Rural",0.3,972344.628093764,276,276,2
+"Capacity Curve 2021-2024: Urban vs. Rural Rural",0.325,971667.48706867,276,276,2
+"Capacity Curve 2021-2024: Urban vs. Rural Rural",0.35,970684.640966852,276,276,2
+"Capacity Curve 2021-2024: Urban vs. Rural Rural",0.375,969510.663117396,276,276,2
+"Capacity Curve 2021-2024: Urban vs. Rural Rural",0.4,968499.479237413,276,276,2
+"Capacity Curve 2021-2024: Urban vs. Rural Rural",0.425,967993.941632727,276,276,2
+"Capacity Curve 2021-2024: Urban vs. Rural Rural",0.45,967106.416519099,276,276,2
+"Capacity Curve 2021-2024: Urban vs. Rural Rural",0.475,965569.624495572,276,276,2
+"Capacity Curve 2021-2024: Urban vs. Rural Rural",0.5,962237.696148546,276,276,2
+"Capacity Curve 2021-2024: Urban vs. Rural Rural",0.525,959504.973014848,276,276,2
+"Capacity Curve 2021-2024: Urban vs. Rural Rural",0.55,957071.403053516,276,276,2
+"Capacity Curve 2021-2024: Urban vs. Rural Rural",0.575,955519.711617914,276,276,2
+"Capacity Curve 2021-2024: Urban vs. Rural Rural",0.6,954667.109623904,276,276,2
+"Capacity Curve 2021-2024: Urban vs. Rural Rural",0.625,953849.803317501,276,276,2
+"Capacity Curve 2021-2024: Urban vs. Rural Rural",0.65,953040.933232574,276,276,2
+"Capacity Curve 2021-2024: Urban vs. Rural Rural",0.675,951648.341767022,276,276,2
+"Capacity Curve 2021-2024: Urban vs. Rural Rural",0.7,950648.098200232,276,276,2
+"Capacity Curve 2021-2024: Urban vs. Rural Rural",0.725,948569.532405585,276,276,2
+"Capacity Curve 2021-2024: Urban vs. Rural Rural",0.75,947273.983799673,276,276,2
+"Capacity Curve 2021-2024: Urban vs. Rural Rural",0.775,946337.219737996,276,276,2
+"Capacity Curve 2021-2024: Urban vs. Rural Rural",0.8,945497.165923163,276,276,2
+"Capacity Curve 2021-2024: Urban vs. Rural Rural",0.825,944677.087812701,276,276,2
+"Capacity Curve 2021-2024: Urban vs. Rural Rural",0.85,942912.530176501,276,276,2
+"Capacity Curve 2021-2024: Urban vs. Rural Rural",0.875,941356.512132639,276,276,2
+"Capacity Curve 2021-2024: Urban vs. Rural Rural",0.9,939575.473724348,276,276,2
+"Capacity Curve 2021-2024: Urban vs. Rural Rural",0.925,937728.965071829,276,276,2
+"Capacity Curve 2021-2024: Urban vs. Rural Rural",0.95,937020.488655987,276,276,2
+"Capacity Curve 2021-2024: Urban vs. Rural Rural",0.975,935484.374612282,276,276,2
+"Capacity Curve 2021-2024: Urban vs. Rural Rural",1,926858.702449447,276,276,2
+"Capacity Curve 2021-2024: Urban vs. Rural Rural",1.1,926922.291383181,276,276,2
+"Capacity Curve 2021-2024: Urban vs. Rural Rural",1.2,927050.143155306,276,276,2
+"Capacity Curve 2021-2024: Urban vs. Rural Rural",1.3,927224.337721018,276,276,2
+"Capacity Curve 2021-2024: Urban vs. Rural Rural",1.4,927420.306607849,276,276,2
+"Capacity Curve 2021-2024: Urban vs. Rural Rural",1.5,927619.061040181,276,276,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.15,1363986.16531319,276,276,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.175,1316226.14661746,276,276,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.2,1288822.92526099,276,276,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.225,1216177.17706782,276,276,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.25,1161583.33765857,276,276,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.275,1124544.45598363,276,276,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.3,1101670.60284006,276,276,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.325,1052938.0006705,276,276,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.35,983366.028717642,276,276,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.375,949392.85680602,276,276,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.4,920980.238804703,276,276,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.425,910121.748086999,276,276,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.45,891925.933102034,276,276,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.475,884801.00585669,276,276,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.5,874916.035084397,276,276,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.525,867369.798350541,276,276,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.55,860334.578955073,276,276,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.575,855171.397733904,276,276,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.6,850381.107699221,276,276,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.625,845309.634041647,276,276,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.65,842864.476542184,276,276,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.675,840705.468040023,276,276,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.7,837075.474106182,276,276,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.725,833893.488102985,276,276,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.75,831091.62237771,276,276,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.775,830551.144563023,276,276,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.8,828812.722029648,276,276,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.825,828090.785887761,276,276,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.85,827857.022137976,276,276,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.875,828614.569334912,276,276,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.9,833056.70285502,276,276,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.925,837743.264230133,276,276,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.95,847187.985190248,276,276,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.975,865204.332011676,276,276,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",1,867722.686366248,276,276,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.15,675842.026893241,184,184,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.175,659379.536817784,184,184,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.2,656435.871248644,184,184,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.225,659159.515196678,184,184,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.25,654955.329286744,184,184,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.275,645489.780082818,184,184,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.3,633524.24342675,184,184,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.325,626084.103315145,184,184,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.35,619133.522555529,184,184,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.375,615249.32861964,184,184,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.4,609004.896421383,184,184,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.425,604295.009941629,184,184,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.45,600450.66727001,184,184,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.475,598723.060492172,184,184,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.5,596616.518213078,184,184,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.525,595015.581291823,184,184,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.55,593015.723885997,184,184,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.575,591492.849421236,184,184,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.6,591113.497999264,184,184,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.625,590777.51192951,184,184,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.65,590829.130588765,184,184,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.675,591127.834163571,184,184,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.7,592249.778927044,184,184,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.725,592677.272541054,184,184,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.75,593135.180293589,184,184,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.775,593634.777903212,184,184,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.8,593477.49657251,184,184,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.825,594291.247746758,184,184,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.85,594286.553188371,184,184,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.875,594731.748520561,184,184,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.9,595096.571239294,184,184,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.925,595440.142828799,184,184,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.95,596517.21713962,184,184,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.975,595941.375279029,184,184,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",1,601076.508343627,184,184,2
+"Capacity Curve 2021-2024: By Percentile Bottom 99",0.15,465517.897292328,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 99",0.175,434968.685771527,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 99",0.2,416188.671058322,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 99",0.225,402882.640511793,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 99",0.25,392956.526057725,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 99",0.275,386629.957375287,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 99",0.3,384298.382688662,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 99",0.325,383646.165470822,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 99",0.35,382038.147747798,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 99",0.375,379650.673639274,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 99",0.4,374331.224011821,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 99",0.425,372405.03128136,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 99",0.45,369542.355726775,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 99",0.475,366942.47284665,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 99",0.5,364543.379842415,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 99",0.525,363874.118229495,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 99",0.55,362336.661189917,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 99",0.575,360945.229283559,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 99",0.6,359514.963917218,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 99",0.625,359157.686848222,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 99",0.65,358385.259819061,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 99",0.675,357618.344004256,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 99",0.7,358921.796864107,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 99",0.725,360128.271763484,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 99",0.75,360411.841465047,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 99",0.775,360873.045751096,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 99",0.8,361396.543434957,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 99",0.825,362364.250518803,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 99",0.85,361828.470514565,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 99",0.875,361078.396794798,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 99",0.9,361614.802431708,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 99",0.925,361758.735497686,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 99",0.95,361457.253435034,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 99",0.975,361966.888590991,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 99",1,363996.909019644,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 90",0.15,220163.972077538,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 90",0.175,211976.029416009,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 90",0.2,207605.397947607,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 90",0.225,205354.384213362,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 90",0.25,203553.034322013,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 90",0.275,202621.542743081,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 90",0.3,201133.851790353,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 90",0.325,199866.308380053,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 90",0.35,198372.96834363,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 90",0.375,197559.657032943,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 90",0.4,197006.512899105,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 90",0.425,196724.25866035,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 90",0.45,196790.932193157,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 90",0.475,196539.642151403,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 90",0.5,196348.635537248,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 90",0.525,196321.353200164,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 90",0.55,196373.754243262,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 90",0.575,196345.728027794,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 90",0.6,196446.218093859,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 90",0.625,196522.524072048,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 90",0.65,196305.46915227,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 90",0.675,196462.947602038,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 90",0.7,196389.710060837,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 90",0.725,196066.14639602,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 90",0.75,195945.54263073,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 90",0.775,195929.050298351,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 90",0.8,195850.89562638,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 90",0.825,195622.467786463,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 90",0.85,195868.238262791,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 90",0.875,196159.178199684,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 90",0.9,196680.578253958,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 90",0.925,197393.094863324,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 90",0.95,198276.771155319,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 90",0.975,199461.355462264,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 90",1,200900.445421523,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 50",0.15,80696.3186541678,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 50",0.175,78464.3473787223,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 50",0.2,77410.4099448264,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 50",0.225,76795.3880602356,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 50",0.25,76234.2608190596,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 50",0.275,75845.7045840736,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 50",0.3,75501.9749178454,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 50",0.325,75345.2048193081,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 50",0.35,75452.3483627536,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 50",0.375,75494.8571558448,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 50",0.4,75467.9007886116,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 50",0.425,75362.8692849168,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 50",0.45,75189.0430590157,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 50",0.475,75011.3819555857,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 50",0.5,74835.5238073514,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 50",0.525,74694.4852214704,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 50",0.55,74591.0709279223,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 50",0.575,74389.0156242022,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 50",0.6,74291.8829136142,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 50",0.625,74211.1426479514,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 50",0.65,74088.3377860633,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 50",0.675,73963.6538179544,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 50",0.7,73919.790583407,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 50",0.725,73815.1257154677,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 50",0.75,73755.391610277,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 50",0.775,73718.2635465818,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 50",0.8,73725.5256748066,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 50",0.825,73827.7797292782,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 50",0.85,73986.8300761863,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 50",0.875,74068.1431092804,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 50",0.9,74308.8183839581,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 50",0.925,74351.643911781,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 50",0.95,74688.0373543888,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 50",0.975,75016.7322994884,276,276,2
+"Capacity Curve 2021-2024: By Percentile Bottom 50",1,76247.4397689188,276,276,2
