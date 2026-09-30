@@ -106,3 +106,40 @@ second checks all existing period/subgroup processed datasets with 30
 bootstrap replicates as an integration smoke test; production analyses use
 1,000. Full pipeline/plotting also requires the project's existing R packages
 (including tidyverse, foreign, haven, Hmisc and yaml).
+
+## Complete pipeline outputs
+
+`source("scripts/run_pipeline.R")` now runs cleaning, both period merges,
+the combined merge, all three capacity-curve analyses and all three
+descriptive-statistics scripts, in that order.
+
+Under the default RUN_ID, each of `output/main/2016-2019/`,
+`output/main/2021-2024/` and `output/main/2016-2024/` contains Figure1 through
+Figure5, the bandwidth-selection summary and grid, and table1_panelA.csv /
+table1_panelB.csv. Custom RUN_ID values use the same structure in their own
+output tree. Old folders, including output/main/Figures, are not deleted.
+
+The pooled CSV combines all six annual transitions from the two periods.
+Reference ages are expressed in 2021 for both sets, so the bootstrap recognizes
+the same cohort across periods. No two-year 2019-2021 transition is introduced.
+Population weights and cell precision columns are preserved.
+
+Descriptive tables retain their existing unweighted summaries of cohort means:
+N counts cohort-transition rows, not people or independent cohorts. They should
+not be described as population-weighted individual income distributions.
+Robustness scripts remain separate commands. A full run now also fits the
+pooled curves and therefore takes longer.
+
+## Small-cell Excel report
+
+Install the Excel writer once with `install.packages("openxlsx")`.
+The pipeline exports `output/<RUN_ID>/small_cell_summary.xlsx` immediately
+after cleaning, in addition to the existing console reports. One row per year
+and subsample records total cohorts, counts below 30/20/10 respondents and
+missing labor-income mean standard errors. Thresholds and subsamples overlap;
+do not sum them as independent groups. The workbook contains one plain sheet: column names and data, without styling.
+To export from existing cleaned CSVs without fitting the models again, run:
+
+```r
+source("scripts/analysis/export_small_cell_reports.R")
+```

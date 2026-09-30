@@ -44,3 +44,7 @@ for (period in c("2016-2019", "2021-2024")) {
 }
 write_csv(bind_rows(summaries), file.path(comparison_dir, "comparison_summary.csv"))
 dump_span_log(file.path(comparison_dir, "bandwidth_selection_summary.csv"))
+source("resources/latex_tables.R")
+export_robustness_tex(read.csv(file.path(comparison_dir, "comparison_summary.csv")), comparison_dir, "bandwidth")
+export_saved_bandwidth_tex(comparison_dir)
+write_latex_index(comparison_dir)

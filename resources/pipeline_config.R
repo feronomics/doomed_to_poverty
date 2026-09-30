@@ -36,8 +36,9 @@ PROCESSED_DIR   <- file.path("data/processed", RUN_ID)
 OUTPUT_DIR      <- file.path("output", RUN_ID)
 OUTPUT_DIR_1619 <- file.path(OUTPUT_DIR, "2016-2019")
 OUTPUT_DIR_2124 <- file.path(OUTPUT_DIR, "2021-2024")
+OUTPUT_DIR_ALL  <- file.path(OUTPUT_DIR, "2016-2024")
 
-for (d in c(PROCESSED_DIR, OUTPUT_DIR, OUTPUT_DIR_1619, OUTPUT_DIR_2124)) {
+for (d in c(PROCESSED_DIR, OUTPUT_DIR, OUTPUT_DIR_1619, OUTPUT_DIR_2124, OUTPUT_DIR_ALL)) {
   dir.create(d, recursive = TRUE, showWarnings = FALSE)
 }
 

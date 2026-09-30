@@ -1,3 +1,4 @@
+source("resources/small_cell_reports.R")
 ## Shared cohort construction, diagnostics and weighted capacity curves.
 ## Cohort precision columns are retained. See loess_helpers.R for inference.
 
@@ -88,24 +89,14 @@ build_cohorts <- function(data, sample_name, year) {
 ## cuántas celdas caen por debajo de 30 / 20 / 10 observaciones, imprime el
 ## reporte en formato log y devuelve el resumen.
 report_small_cells <- function(cohort_tables) {
-  report <- purrr::imap_dfr(cohort_tables, function(tbl, nm) {
-    tibble::tibble(
-      sample     = nm,
-      n_cohorts  = nrow(tbl),
-      `cells<30` = sum(tbl$n < 30),
-      `cells<20` = sum(tbl$n < 20),
-      `cells<10` = sum(tbl$n < 10),
-      `se_NA`    = sum(is.na(tbl$se_y1))
-    )
-  })
-
   year <- head(cohort_tables$general$year, 1)
+  report <- summarize_cohort_cells(cohort_tables, year)
 
   cat("\n")
   log_msg("==================================================================")
   log_msg("SMALL-CELL REPORT ", year)
   log_msg("Cohorts defined by education x age. Counts = cohorts below threshold.")
-  log_msg("se_NA = cells with n < 2, where no within-cell SE is estimable.")
+  log_msg("se_NA = cells with missing labor-income mean SE (se_y1).")
   log_msg("==================================================================")
 
   cat(sprintf(

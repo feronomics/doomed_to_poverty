@@ -1,85 +1,27 @@
-## Poverty trap in Guatemala?
-## PIs:  Fernando Sáenz
-##      Javier Velásquez
-##      Alejandro Milián
-## 
-## Last modification: 15 May 2026
-## 
-## Inputs:    Income 2016 - Income 2025
-## Outputs:   data.csv  
-##
-## Purpose: Merging
-
-
+## Pool the two annual-transition panels after running their merge scripts.
+## A common reference age preserves cohort identity across both periods.
+## No 2019-2021 pair: that is a two-year gap, not an annual transition.
 source("resources/pipeline_config.R")
 
-## Append Data
-## FIX: `files` nunca se definia (la linea anterior solo listaba data/raw
-## sin asignar). Ahora se construye explicitamente desde PROCESSED_DIR.
-files <- file.path(PROCESSED_DIR, c(
-  "income_2016.csv",
-  "income_2017.csv",
-  "income_2018.csv",
-  "income_2019.csv",
-  "income_2021.csv",
-  "income_2022.csv",
-  "income_2023.csv",
-  "income_2024.csv"
-))
-
-data_list <- lapply(files, read.table, sep = ",", header = TRUE)
-data <- bind_rows(data_list)
-
-## ============= Format variables ======================================
-
-## Creating variable -- age 2021
-data <- data %>%
-  mutate(substract = year - 2021, 
-         age_2021 = age - substract) %>% 
-  select(-substract)
-
-## Change variable names -- choosing simpler ones
-data <- data %>%
-  rename(y_lab = avg_labor_income,
-         y_ad = avg_add_labor_income, 
-         y_nonlab = avg_no_labor_income, 
-         rem = avg_remittances) %>% 
-  select(-n) 
-
-data <- data %>% 
-  mutate(y1 = y_lab, 
-         y2 = rowSums(across(c(y_lab, y_ad)), na.rm=T), 
-         y3 = rowSums(across(c(y_lab, y_ad, y_nonlab)), na.rm=T), 
-         y4 = rowSums(across(c(y_lab, y_ad, y_nonlab, rem)), na.rm=T))
-
-## =================== Creating pairs ==================================
-
-make_pair <- function(yr_t, yr_t1) {
-  
-  left <- data %>%
-    filter(year == yr_t) %>%
-    select(age_2021, education, sample, weights_total, y1, y2, y3, y4) %>%
-    rename_with(~ paste0(., "_1"), c(weights_total, y1, y2, y3, y4))
-  
-  right <- data %>%
-    filter(year == yr_t1) %>%
-    select(age_2021, education, sample, weights_total, y1, y2, y3, y4) %>%
-    rename_with(~ paste0(., "_2"), c(weights_total, y1, y2, y3, y4))
-  
-  inner_join(left, right, by = c("age_2021", "education", "sample")) %>%
-    mutate(comparison = paste0(yr_t, "-", yr_t1))
-}
-
-years_available <- sort(unique(data$year))
-year_pairs <- data.frame(year_t  = head(years_available, -1), year_t1 = tail(years_available, -1))
-
-data_wide <- bind_rows(mapply(make_pair, year_pairs$year_t, year_pairs$year_t1, SIMPLIFY = FALSE))
-
-data_wide_completed <- data_wide %>%
-  filter(if_all(y1_1:y4_2, ~ !is.na(.))) %>%
-  select(age_2021, education, sample, comparison,
-         weights_total_1, weights_total_2,
-         y1_1, y1_2, y2_1, y2_2, y3_1, y3_2, y4_1, y4_2)
-
-## ============== Export  =======================================
-write_csv(data_wide_completed, file.path(PROCESSED_DIR, "data_2016-2024.csv"))
+pre <- read.csv(file.path(PROCESSED_DIR, "data_2016-2019.csv"))
+post <- read.csv(file.path(PROCESSED_DIR, "data_2021-2024.csv"))
+required <- c("education", "sample", "comparison", "weights_total_1",
+              "weights_total_2", "n_1", "n_2", "n_eff_1", "n_eff_2",
+              paste0("se_y", rep(1:4, each = 2), "_", 1:2),
+              paste0("y", rep(1:4, each = 2), "_", 1:2))
+stopifnot(all(c(required, "age_2019") %in% names(pre)),
+          all(c(required, "age_2021") %in% names(post)))
+pre$age_2021 <- pre$age_2019 + 2
+pre$age_2019 <- NULL
+data_wide_completed <- rbind(pre[, c("age_2021", required)],
+                             post[, c("age_2021", required)])
+expected <- c("2016-2017", "2017-2018", "2018-2019",
+              "2021-2022", "2022-2023", "2023-2024")
+if (!setequal(unique(data_wide_completed$comparison), expected))
+  stop("Combined panel must contain all six annual transitions and no gaps.")
+if (anyDuplicated(data_wide_completed[c("age_2021", "education", "sample", "comparison")]))
+  stop("Duplicate cohort-transition keys in combined panel.")
+write.csv(data_wide_completed, file.path(PROCESSED_DIR, "data_2016-2024.csv"),
+          row.names = FALSE, na = "NA")
+cat("Merged 2016-2024:", nrow(data_wide_completed),
+    "cohort-transition rows, six annual transitions; 2019-2021 excluded.\n")

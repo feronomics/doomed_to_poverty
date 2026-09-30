@@ -23,7 +23,7 @@ source("resources/pipeline_config.R")
 source("resources/theme_fer.R")
 source("resources/functions.R")
 
-OUTPUT_DIR_FIGURES <- file.path(OUTPUT_DIR, "Figures")
+OUTPUT_DIR_FIGURES <- OUTPUT_DIR_ALL
 dir.create(OUTPUT_DIR_FIGURES, recursive = TRUE, showWarnings = FALSE)
 
 ## =============== Load Data ===================================
@@ -85,7 +85,7 @@ ggplot(grid_long, aes(x = x)) +
   theme_apa()+
   labs(x = "Income t",
        y = "Income t+1",
-       title = "Capacity Curve (General Sample)")
+       title = "Capacity Curve (General Sample) 2016-2024")
 
 ggsave(file.path(OUTPUT_DIR_FIGURES, "Figure1.png"), width = 10, height = 7, dpi = 300)
 
@@ -135,5 +135,5 @@ plot_capacity_curve(
 ggsave(file.path(OUTPUT_DIR_FIGURES, "Figure5.png"), width = 10, height = 7, dpi = 300)
 
 ## ============== Bandwidth (span) selection log ==================
-dump_span_log(file.path(OUTPUT_DIR, "bandwidth_selection_summary.csv"))
+dump_span_log(file.path(OUTPUT_DIR_ALL, "bandwidth_selection_summary.csv"))
 
