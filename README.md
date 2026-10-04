@@ -4,10 +4,11 @@ The purpose of this package is to provide the reproduceble results of our invest
 
 
 We keept a script per National Survey beacause of inconsistency the column names of the database
+
 # Sources
 
 All the data used on this research was from ENEI and ENCOVI. ENCOVI it's made every 5 years and ENEI it's like a tracker of whats happens in the mean time but only selection of special variables. 
 
-# ENEI
+# Methodology
 
-The idea of ENEI it's to track the dynamic incomes, so we
+The idea of ENEI it's to track the incomes dynamic over time and use a non-paraetric method to adjust an empirical capacity curve for the the case of Guatemala. However, since the administrative data available consists of repearted cross-section information (each year the INE interviews a different set of individuals), we propose building a pseudo-panel based on cohorts of the same age and educational level. 
