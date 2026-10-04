@@ -1,10 +1,12 @@
+# Descriptive statistics of cohort-transition rows (unweighted, as before).
+# N counts transitions, not individuals or independent cohorts.
 ## Poverty trap in Guatemala? — Descriptive Statistics (Table 1)
 ## PIs:  Fernando Sáenz, Javier Velásquez, Alejandro Milián
 ## Fecha: 05 Jul 2026
 ##
-## Inputs:   data/processed/data_2021-2024.csv
-## Outputs:  output/2016-2019/table1_panelA.csv
-##           output/2016-2019/table1_panelB.csv
+## Inputs: data/processed/<RUN_ID>/data_2016-2019.csv
+## Outputs: output/<RUN_ID>/2016-2019/table1_panelA.csv
+##          output/<RUN_ID>/2016-2019/table1_panelB.csv
 ##           (opcional) versiones LaTeX de ambos paneles
 ##
 ## Estructura:
@@ -17,7 +19,9 @@
 
 library(tidyverse)
 
-data <- read_csv("data/processed/data_2016-2019.csv")
+source("resources/pipeline_config.R")
+table_dir <- file.path(OUTPUT_DIR, "2016-2019")
+data <- read_csv(file.path(PROCESSED_DIR, "data_2016-2019.csv"))
 
 ## ============ Configuración ========================================
 
@@ -65,7 +69,7 @@ panel_a <- data |>
   select(Variable, N, Mean, SD, Min, P25, Median, P75, Max)
 
 print(panel_a, n = Inf)
-write_csv(panel_a, "output/2016-2019/table1_panelA.csv")
+write_csv(panel_a, file.path(table_dir, "table1_panelA.csv"))
 
 ## ============ Panel B: media (DE) por submuestra ====================
 ## Convención estándar en economía: media con la DE entre paréntesis
@@ -95,12 +99,12 @@ fila_n <- data |>
   count(sample) |>
   mutate(n = as.character(n)) |>   # el Panel B es texto: "media (DE)"
   pivot_wider(names_from = sample, values_from = n) |>
-  mutate(Variable = "Observations (N)") |>
+  mutate(Variable = "Cohort transitions (N)") |>
   select(Variable, any_of(submuestras))
 
 panel_b <- bind_rows(panel_b, fila_n)
 
 print(panel_b, n = Inf)
-write_csv(panel_b, "output/2016-2019/table1_panelB.csv")
+write_csv(panel_b, file.path(table_dir, "table1_panelB.csv"))
 
 cat("\nRECORDATORIO: completar las notas al pie de la tabla (ver final del script).\n")

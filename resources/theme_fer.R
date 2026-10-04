@@ -13,6 +13,7 @@
 
 library(ggplot2)
 library(scales)
+library(openxlsx)
 
 # --- 1. Registro de la fuente Times New Roman -----------------
 # En Windows suele estar disponible directamente. En Mac/Linux

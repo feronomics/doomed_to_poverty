@@ -48,7 +48,7 @@ for (i in seq_len(nrow(specs))) {
   spec <- specs[i, ]
   processed_path <- file.path("data/processed", spec$run_id, "data_2016-2019.csv")
 
-  if (file.exists(processed_path)) {
+  if (file.exists(processed_path) && file.exists(file.path("data/processed", spec$run_id, "data_2021-2024.csv"))) {
     cat(sprintf("[skip] %s already exists, not re-running\n", spec$run_id))
     next
   }
@@ -100,73 +100,51 @@ if (n_distinct(data_1619$run_id) < nrow(specs)) {
   )
 }
 
-## ============== 4. Overlay capacity curves across cutoffs ==================
-
+## Weighted age comparisons: retuned spans and baseline-fixed spans.
 source("resources/theme_fer.R")
-
+source("resources/functions.R")
 x_grid <- seq(0, 7000, length.out = 100)
-
-fit_spec <- function(df, label) {
-  fit <- loess(y1_2 ~ y1_1, data = df)
-  tibble(x = x_grid, y = predict(fit, newdata = tibble(y1_1 = x_grid)), label = label)
-}
-
-plot_capacity_by_cutoff <- function(data, period_title, filename) {
-  plot_data <- data |>
-    group_split(run_id) |>
-    lapply(function(df) fit_spec(df, unique(df$label))) |>
-    bind_rows()
-
-  ggplot(plot_data, aes(x = x, y = y, color = label, linetype = label)) +
-    geom_abline(intercept = 0, slope = 1, linetype = "dashed", color = "grey50") +
-    geom_line(linewidth = 0.9) +
-    scale_y_quetzal() +
-    scale_x_quetzal() +
-    coord_fixed(ratio = 1) +
-    theme_apa() +
-    labs(
-      x = "Income t", y = "Income t+1", color = "Age cutoff", linetype = "Age cutoff",
-      title = paste0("Capacity Curve Robustness to Age Cutoff: ", period_title),
-      subtitle = "General sample, labor income (y1)"
-    )
-
-  ggsave(file.path(comparison_dir, filename), width = 8, height = 8, dpi = 300)
-}
-
-plot_capacity_by_cutoff(data_1619, "2016-2019", "comparison_capacity_curve_2016-2019.png")
-plot_capacity_by_cutoff(data_2124, "2021-2024", "comparison_capacity_curve_2021-2024.png")
-
-## ============== 5. Numeric summary: predicted y_{t+1} at reference y_t ====
-
 reference_points <- c(500, 1500, 3000, 5000)
-
-summarize_spec <- function(df, label, period) {
-  fit <- loess(y1_2 ~ y1_1, data = df)
-  tibble(
-    period         = period,
-    age_cutoff     = label,
-    n_cohorts      = nrow(df),
-    y_t            = reference_points,
-    predicted_y_t1 = predict(fit, newdata = tibble(y1_1 = reference_points))
-  )
+summaries <- list()
+for (period in c("2016-2019", "2021-2024")) {
+  period_data <- if (period == "2016-2019") data_1619 else data_2124
+  baseline <- filter(period_data, run_id == "main")
+  if (!nrow(baseline)) stop("Missing main age specification for ", period)
+  main_model <- fit_capacity(y1_2 ~ y1_1, baseline,
+                             span_label = paste(period, "age baseline"))
+  for (mode in c("retuned", "fixed_baseline")) {
+    curves <- list()
+    for (id in unique(period_data$run_id)) {
+      df <- filter(period_data, run_id == id)
+      label <- unique(df$label)
+      model <- if (id == "main") main_model else fit_capacity(y1_2 ~ y1_1, df,
+        span = if (mode == "fixed_baseline") main_model$span else NULL,
+        span_label = paste(period, "age", label))
+      curves[[id]] <- tibble(x = x_grid,
+        y = predict_capacity(model$fit, data.frame(y1_1 = x_grid)), label = label)
+      summaries[[length(summaries) + 1L]] <- tibble(period = period, mode = mode,
+        age_cutoff = label, span = model$span,
+        n_cohorts = length(unique(model$data$.cohort)), n_pairs = nrow(model$data),
+        y_t = reference_points,
+        predicted_y_t1 = predict_capacity(model$fit, data.frame(y1_1 = reference_points)))
+    }
+    plot_data <- bind_rows(curves) |> mutate(label = factor(label, levels = specs$label))
+    p <- ggplot(plot_data, aes(x, y, color = label, linetype = label)) +
+      geom_abline(intercept = 0, slope = 1, linetype = "dashed", color = "grey50") +
+      geom_line(linewidth = 0.9, na.rm = TRUE) +
+      scale_x_quetzal() + scale_y_quetzal() + coord_fixed(ratio = 1) + theme_apa() +
+      labs(x = "Income t", y = "Income t+1", color = "Age cutoff", linetype = "Age cutoff",
+        title = paste("Capacity Curve Robustness to Age Cutoff:", period),
+        subtitle = paste("Population-weighted;", if (mode == "retuned")
+          "grouped-CV span for each cutoff" else "main-sample span held fixed"))
+    suffix <- if (mode == "retuned") "" else "_fixed_bandwidth"
+    ggsave(file.path(comparison_dir, paste0("comparison_capacity_curve_", period, suffix, ".png")),
+           plot = p, width = 8, height = 8, dpi = 300)
+  }
 }
-
-summary_1619 <- data_1619 |>
-  group_split(run_id) |>
-  lapply(function(df) summarize_spec(df, unique(df$label), "2016-2019")) |>
-  bind_rows()
-
-summary_2124 <- data_2124 |>
-  group_split(run_id) |>
-  lapply(function(df) summarize_spec(df, unique(df$label), "2021-2024")) |>
-  bind_rows()
-
-summary_table <- bind_rows(summary_1619, summary_2124) |>
-  arrange(period, y_t, age_cutoff)
-
-write_csv(summary_table, file.path(comparison_dir, "comparison_summary.csv"))
-
-cat("\nRobustness check complete.\n")
-cat("Figures:  ", file.path(comparison_dir, "comparison_capacity_curve_2016-2019.png"), "\n")
-cat("          ", file.path(comparison_dir, "comparison_capacity_curve_2021-2024.png"), "\n")
-cat("Table:    ", file.path(comparison_dir, "comparison_summary.csv"), "\n")
+write_csv(bind_rows(summaries), file.path(comparison_dir, "comparison_summary.csv"))
+dump_span_log(file.path(comparison_dir, "bandwidth_selection_summary.csv"))
+source("resources/latex_tables.R")
+export_robustness_tex(read.csv(file.path(comparison_dir, "comparison_summary.csv")), comparison_dir, "age")
+export_saved_bandwidth_tex(comparison_dir)
+write_latex_index(comparison_dir)

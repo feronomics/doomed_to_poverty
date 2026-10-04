@@ -1,20 +1,6 @@
-## Poverty trap in Guatemala?
-## PIs:  Fernando Sáenz
-##       Javier Velásquez
-##       Alejandro Milián
-##
-## Last modification: 02 Aug 2026
-##
-## Purpose: funciones compartidas por todo el pipeline.
-##
-## Cambios (02 Aug 2026):
-##  - build_cohorts() ahora devuelve n_eff (tamaño efectivo de Kish) y
-##    se_y1..se_y4 (error estándar de la media dentro de cada celda).
-##  - loess_ci() pasa de CI analítico (predict(se = TRUE), que sólo mide
-##    incertidumbre de suavizado) a bootstrap de dos etapas:
-##      etapa 1: remuestreo de cohortes
-##      etapa 2: perturbación de cada media por su propio se_
-##  - plot_capacity_curve() ya no depende de un objeto `data` global.
+source("resources/small_cell_reports.R")
+## Shared cohort construction, diagnostics and weighted capacity curves.
+## Cohort precision columns are retained. See loess_helpers.R for inference.
 
 ## ============== Logging ===============================
 
@@ -103,24 +89,14 @@ build_cohorts <- function(data, sample_name, year) {
 ## cuántas celdas caen por debajo de 30 / 20 / 10 observaciones, imprime el
 ## reporte en formato log y devuelve el resumen.
 report_small_cells <- function(cohort_tables) {
-  report <- purrr::imap_dfr(cohort_tables, function(tbl, nm) {
-    tibble::tibble(
-      sample     = nm,
-      n_cohorts  = nrow(tbl),
-      `cells<30` = sum(tbl$n < 30),
-      `cells<20` = sum(tbl$n < 20),
-      `cells<10` = sum(tbl$n < 10),
-      `se_NA`    = sum(is.na(tbl$se_y1))
-    )
-  })
-
   year <- head(cohort_tables$general$year, 1)
+  report <- summarize_cohort_cells(cohort_tables, year)
 
   cat("\n")
   log_msg("==================================================================")
   log_msg("SMALL-CELL REPORT ", year)
   log_msg("Cohorts defined by education x age. Counts = cohorts below threshold.")
-  log_msg("se_NA = cells with n < 2, where no within-cell SE is estimable.")
+  log_msg("se_NA = cells with missing labor-income mean SE (se_y1).")
   log_msg("==================================================================")
 
   cat(sprintf(
@@ -158,111 +134,7 @@ report_small_cells <- function(cohort_tables) {
 }
 
 
-## =============== LOESS + intervalo de confianza por bootstrap ==============
-
-## loess_ci(): ajusta un LOESS ponderado y devuelve fit / lwr / upr
-## evaluados sobre newdata.
-##
-## El intervalo viene de un bootstrap de DOS ETAPAS:
-##
-##   Etapa 1 (entre cohortes): remuestreo con reemplazo de las filas del
-##   pseudopanel. Responde a "¿qué tan distinta sería la curva si el
-##   conjunto de cohortes fuera otro?".
-##
-##   Etapa 2 (dentro de cohorte): cada media se perturba con ruido normal
-##   de desviación igual a su propio se_. Responde a "cada punto es él
-##   mismo un estimado con error, no un clavo fijo".
-##
-## LIMITACIONES que deben reportarse en el paper:
-##  - Los se_ suponen muestreo aleatorio simple. ENEI/ENCOVI son
-##    estratificadas y por conglomerados, así que estos se_ SUBESTIMAN la
-##    varianza real. Corregirlo requiere las variables de diseño (UPM,
-##    estrato) de los .sav, que hoy no se cargan en los config_YYYY.yaml.
-##  - Perturbar el eje X propaga incertidumbre pero NO corrige el sesgo de
-##    atenuación (error de medición en X aplana la pendiente estimada).
-##    Corregirlo exige otro camino: variables instrumentales o SIMEX.
-##  - Celdas con se_ = NA (n < 2) se tratan como medidas sin error, lo cual
-##    es falso al revés. Considerar filtrar por min_n.
-##
-## Argumentos:
-##   formula  - p.ej. y1_2 ~ y1_1
-##   df       - data frame del pseudopanel (una submuestra)
-##   newdata  - grid de predicción
-##   B        - número de réplicas bootstrap
-##   span     - parámetro de suavizado del LOESS
-##   min_n    - descarta pares de cohortes con menos de min_n obs. en
-##              cualquiera de los dos años (0 = no filtrar)
-loess_ci <- function(formula, df, newdata, B = 1000, span = 0.75, min_n = 0) {
-
-  vars <- all.vars(formula)
-  yv <- vars[1]                                   # p.ej. "y1_2"
-  xv <- vars[2]                                   # p.ej. "y1_1"
-  se_y <- sub("^(y[0-9]+)_2$", "se_\\1_2", yv)
-  se_x <- sub("^(y[0-9]+)_1$", "se_\\1_1", xv)
-
-  df <- as.data.frame(df)
-
-  ## --- Guarda: fallar con un mensaje legible, no con un error críptico ---
-  needed <- c(yv, xv, se_y, se_x, "weights_total_1")
-  missing <- setdiff(needed, names(df))
-  if (length(missing) > 0) {
-    stop("loess_ci: faltan columnas en los datos: ",
-         paste(missing, collapse = ", "),
-         "\n  -> ¿se corrió el merging actualizado que propaga se_*?",
-         call. = FALSE)
-  }
-
-  ## --- Filtro opcional de celdas chicas ---
-  if (min_n > 0 && all(c("n_1", "n_2") %in% names(df))) {
-    df <- df[df$n_1 >= min_n & df$n_2 >= min_n, , drop = FALSE]
-  }
-
-  ## Columna de pesos con nombre simple: loess() evalúa `weights` dentro
-  ## del model frame, así que referirse a df$algo desde fuera provoca
-  ## errores de scoping ("variable lengths differ").
-  df$.w <- df$weights_total_1
-
-  ## Celdas sin se_ estimable: se tratan como exactas (ver limitaciones).
-  df[[se_y]][!is.finite(df[[se_y]])] <- 0
-  df[[se_x]][!is.finite(df[[se_x]])] <- 0
-
-  df <- df[is.finite(df[[yv]]) & is.finite(df[[xv]]) & is.finite(df$.w), , drop = FALSE]
-
-  if (nrow(df) < 10) {
-    stop("loess_ci: sólo ", nrow(df), " filas utilizables; muy pocas para ajustar.",
-         call. = FALSE)
-  }
-
-  fit <- loess(formula, data = df, span = span, weights = .w)
-
-  boot <- replicate(B, {
-    d <- df[sample(nrow(df), replace = TRUE), , drop = FALSE]
-    d[[yv]] <- d[[yv]] + rnorm(nrow(d), 0, d[[se_y]])
-    d[[xv]] <- d[[xv]] + rnorm(nrow(d), 0, d[[se_x]])
-
-    f <- try(loess(formula, data = d, span = span, weights = .w), silent = TRUE)
-    if (inherits(f, "try-error")) {
-      rep(NA_real_, nrow(newdata))
-    } else {
-      suppressWarnings(predict(f, newdata = newdata))
-    }
-  })
-
-  n_fallidas <- sum(apply(boot, 2, function(col) all(is.na(col))))
-  if (n_fallidas > B * 0.05) {
-    log_msg(level = "WARN",
-            "loess_ci: ", n_fallidas, "/", B,
-            " réplicas fallaron (", round(100 * n_fallidas / B), "%).",
-            " Considerar un span mayor.")
-  }
-
-  data.frame(
-    fit = suppressWarnings(predict(fit, newdata = newdata)),
-    lwr = apply(boot, 1, quantile, 0.025, na.rm = TRUE),
-    upr = apply(boot, 1, quantile, 0.975, na.rm = TRUE)
-  )
-}
-
+source("resources/loess_helpers.R")
 
 ## =============== Gráfico comparativo de curvas de capacidad ================
 
@@ -275,7 +147,7 @@ loess_ci <- function(formula, df, newdata, B = 1000, span = 0.75, min_n = 0) {
 plot_capacity_curve <- function(samples, labels, y_var, title,
                                 data_all = NULL,
                                 x_grid = seq(0, 7000, length.out = 100),
-                                B = 1000, span = 0.75, min_n = 0) {
+                                B = 1000, span = NULL, min_n = 0) {
 
   if (is.null(data_all)) {
     data_all <- get("data", envir = parent.frame())
@@ -288,7 +160,7 @@ plot_capacity_curve <- function(samples, labels, y_var, title,
   plot_data <- bind_rows(lapply(seq_along(samples), function(i) {
     df <- dplyr::filter(data_all, sample == samples[i])
     ci <- loess_ci(as.formula(paste(y_col, "~", x_col)), df, newdata,
-                   B = B, span = span, min_n = min_n)
+                   B = B, span = span, min_n = min_n, span_label = paste(title, labels[i]))
     data.frame(x = x_grid, ci, group = labels[i])
   })) |>
     mutate(group = factor(group, levels = labels))

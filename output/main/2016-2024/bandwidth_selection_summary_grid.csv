@@ -1,0 +1,461 @@
+"regression","span","cv_mse","n_predicted","n_rows","n_extrapolated"
+"General Sample (2016-2024) - Labor income (y1)",0.15,574681.935067269,552,552,2
+"General Sample (2016-2024) - Labor income (y1)",0.175,538896.058772849,552,552,2
+"General Sample (2016-2024) - Labor income (y1)",0.2,520452.017390384,552,552,2
+"General Sample (2016-2024) - Labor income (y1)",0.225,513584.740662178,552,552,2
+"General Sample (2016-2024) - Labor income (y1)",0.25,511725.172751048,552,552,2
+"General Sample (2016-2024) - Labor income (y1)",0.275,511118.586172619,552,552,2
+"General Sample (2016-2024) - Labor income (y1)",0.3,510460.557525632,552,552,2
+"General Sample (2016-2024) - Labor income (y1)",0.325,509815.030492141,552,552,2
+"General Sample (2016-2024) - Labor income (y1)",0.35,509926.269051898,552,552,2
+"General Sample (2016-2024) - Labor income (y1)",0.375,512697.750142442,552,552,2
+"General Sample (2016-2024) - Labor income (y1)",0.4,522746.006836988,552,552,2
+"General Sample (2016-2024) - Labor income (y1)",0.425,548927.324229889,552,552,2
+"General Sample (2016-2024) - Labor income (y1)",0.45,566459.254224276,552,552,2
+"General Sample (2016-2024) - Labor income (y1)",0.475,580001.768734484,552,552,2
+"General Sample (2016-2024) - Labor income (y1)",0.5,592194.204892432,552,552,2
+"General Sample (2016-2024) - Labor income (y1)",0.525,610116.285809418,552,552,2
+"General Sample (2016-2024) - Labor income (y1)",0.55,624581.028969348,552,552,2
+"General Sample (2016-2024) - Labor income (y1)",0.575,637801.315341775,552,552,2
+"General Sample (2016-2024) - Labor income (y1)",0.6,646734.407367002,552,552,2
+"General Sample (2016-2024) - Labor income (y1)",0.625,652915.984178048,552,552,2
+"General Sample (2016-2024) - Labor income (y1)",0.65,659991.025043375,552,552,2
+"General Sample (2016-2024) - Labor income (y1)",0.675,664366.862994708,552,552,2
+"General Sample (2016-2024) - Labor income (y1)",0.7,669228.053320276,552,552,2
+"General Sample (2016-2024) - Labor income (y1)",0.725,674233.711880771,552,552,2
+"General Sample (2016-2024) - Labor income (y1)",0.75,678303.519945095,552,552,2
+"General Sample (2016-2024) - Labor income (y1)",0.775,682806.210102067,552,552,2
+"General Sample (2016-2024) - Labor income (y1)",0.8,687061.482511095,552,552,2
+"General Sample (2016-2024) - Labor income (y1)",0.825,691720.24201988,552,552,2
+"General Sample (2016-2024) - Labor income (y1)",0.85,695271.868307876,552,552,2
+"General Sample (2016-2024) - Labor income (y1)",0.875,696339.583834228,552,552,2
+"General Sample (2016-2024) - Labor income (y1)",0.9,694102.131760074,552,552,2
+"General Sample (2016-2024) - Labor income (y1)",0.925,688790.550158709,552,552,2
+"General Sample (2016-2024) - Labor income (y1)",0.95,677604.416450712,552,552,2
+"General Sample (2016-2024) - Labor income (y1)",0.975,664606.597657494,552,552,2
+"General Sample (2016-2024) - Labor income (y1)",1,663543.514862261,552,552,2
+"General Sample (2016-2024) - Including in-kind (y2)",0.15,595117.438943722,552,552,2
+"General Sample (2016-2024) - Including in-kind (y2)",0.175,552072.11866192,552,552,2
+"General Sample (2016-2024) - Including in-kind (y2)",0.2,534480.879198517,552,552,2
+"General Sample (2016-2024) - Including in-kind (y2)",0.225,521207.435254421,552,552,2
+"General Sample (2016-2024) - Including in-kind (y2)",0.25,516193.303719555,552,552,2
+"General Sample (2016-2024) - Including in-kind (y2)",0.275,514091.177709206,552,552,2
+"General Sample (2016-2024) - Including in-kind (y2)",0.3,512985.561869022,552,552,2
+"General Sample (2016-2024) - Including in-kind (y2)",0.325,513431.649295704,552,552,2
+"General Sample (2016-2024) - Including in-kind (y2)",0.35,514556.637994721,552,552,2
+"General Sample (2016-2024) - Including in-kind (y2)",0.375,519608.316826426,552,552,2
+"General Sample (2016-2024) - Including in-kind (y2)",0.4,530173.975644654,552,552,2
+"General Sample (2016-2024) - Including in-kind (y2)",0.425,558279.07652549,552,552,2
+"General Sample (2016-2024) - Including in-kind (y2)",0.45,571981.763528625,552,552,2
+"General Sample (2016-2024) - Including in-kind (y2)",0.475,583263.784763957,552,552,2
+"General Sample (2016-2024) - Including in-kind (y2)",0.5,595774.736696126,552,552,2
+"General Sample (2016-2024) - Including in-kind (y2)",0.525,608368.989107267,552,552,2
+"General Sample (2016-2024) - Including in-kind (y2)",0.55,621977.443146347,552,552,2
+"General Sample (2016-2024) - Including in-kind (y2)",0.575,629029.389061487,552,552,2
+"General Sample (2016-2024) - Including in-kind (y2)",0.6,635603.199089243,552,552,2
+"General Sample (2016-2024) - Including in-kind (y2)",0.625,641969.509066265,552,552,2
+"General Sample (2016-2024) - Including in-kind (y2)",0.65,647197.980444455,552,552,2
+"General Sample (2016-2024) - Including in-kind (y2)",0.675,652691.654626294,552,552,2
+"General Sample (2016-2024) - Including in-kind (y2)",0.7,657290.174143752,552,552,2
+"General Sample (2016-2024) - Including in-kind (y2)",0.725,660800.586161045,552,552,2
+"General Sample (2016-2024) - Including in-kind (y2)",0.75,663224.457637173,552,552,2
+"General Sample (2016-2024) - Including in-kind (y2)",0.775,667477.141864442,552,552,2
+"General Sample (2016-2024) - Including in-kind (y2)",0.8,672085.381902108,552,552,2
+"General Sample (2016-2024) - Including in-kind (y2)",0.825,675408.104094043,552,552,2
+"General Sample (2016-2024) - Including in-kind (y2)",0.85,679289.514118266,552,552,2
+"General Sample (2016-2024) - Including in-kind (y2)",0.875,679436.961791164,552,552,2
+"General Sample (2016-2024) - Including in-kind (y2)",0.9,676411.997852362,552,552,2
+"General Sample (2016-2024) - Including in-kind (y2)",0.925,671960.774813962,552,552,2
+"General Sample (2016-2024) - Including in-kind (y2)",0.95,662235.760952717,552,552,2
+"General Sample (2016-2024) - Including in-kind (y2)",0.975,651699.585423528,552,552,2
+"General Sample (2016-2024) - Including in-kind (y2)",1,648076.824938752,552,552,2
+"General Sample (2016-2024) - Including non-labor (y3)",0.15,959320.409487117,552,552,2
+"General Sample (2016-2024) - Including non-labor (y3)",0.175,834377.995204733,552,552,2
+"General Sample (2016-2024) - Including non-labor (y3)",0.2,722144.619428028,552,552,2
+"General Sample (2016-2024) - Including non-labor (y3)",0.225,690928.270255185,552,552,2
+"General Sample (2016-2024) - Including non-labor (y3)",0.25,669235.145907193,552,552,2
+"General Sample (2016-2024) - Including non-labor (y3)",0.275,641451.012215896,552,552,2
+"General Sample (2016-2024) - Including non-labor (y3)",0.3,620632.409951537,552,552,2
+"General Sample (2016-2024) - Including non-labor (y3)",0.325,606029.147534384,552,552,2
+"General Sample (2016-2024) - Including non-labor (y3)",0.35,599952.127327056,552,552,2
+"General Sample (2016-2024) - Including non-labor (y3)",0.375,593665.164959161,552,552,2
+"General Sample (2016-2024) - Including non-labor (y3)",0.4,592199.275470871,552,552,2
+"General Sample (2016-2024) - Including non-labor (y3)",0.425,597015.377225635,552,552,2
+"General Sample (2016-2024) - Including non-labor (y3)",0.45,601085.553091839,552,552,2
+"General Sample (2016-2024) - Including non-labor (y3)",0.475,603384.473180592,552,552,2
+"General Sample (2016-2024) - Including non-labor (y3)",0.5,608433.842596596,552,552,2
+"General Sample (2016-2024) - Including non-labor (y3)",0.525,612568.774562481,552,552,2
+"General Sample (2016-2024) - Including non-labor (y3)",0.55,616374.844327152,552,552,2
+"General Sample (2016-2024) - Including non-labor (y3)",0.575,619172.962756761,552,552,2
+"General Sample (2016-2024) - Including non-labor (y3)",0.6,622915.775818869,552,552,2
+"General Sample (2016-2024) - Including non-labor (y3)",0.625,625187.102513144,552,552,2
+"General Sample (2016-2024) - Including non-labor (y3)",0.65,628699.978987203,552,552,2
+"General Sample (2016-2024) - Including non-labor (y3)",0.675,631191.433514948,552,552,2
+"General Sample (2016-2024) - Including non-labor (y3)",0.7,634225.274350445,552,552,2
+"General Sample (2016-2024) - Including non-labor (y3)",0.725,635794.645215322,552,552,2
+"General Sample (2016-2024) - Including non-labor (y3)",0.75,638228.178462651,552,552,2
+"General Sample (2016-2024) - Including non-labor (y3)",0.775,640872.676981115,552,552,2
+"General Sample (2016-2024) - Including non-labor (y3)",0.8,644125.315249331,552,552,2
+"General Sample (2016-2024) - Including non-labor (y3)",0.825,646512.524551742,552,552,2
+"General Sample (2016-2024) - Including non-labor (y3)",0.85,649696.022442162,552,552,2
+"General Sample (2016-2024) - Including non-labor (y3)",0.875,653202.144136993,552,552,2
+"General Sample (2016-2024) - Including non-labor (y3)",0.9,654135.513365905,552,552,2
+"General Sample (2016-2024) - Including non-labor (y3)",0.925,653650.195718063,552,552,2
+"General Sample (2016-2024) - Including non-labor (y3)",0.95,651364.78860338,552,552,2
+"General Sample (2016-2024) - Including non-labor (y3)",0.975,648600.582182486,552,552,2
+"General Sample (2016-2024) - Including non-labor (y3)",1,654429.692324325,552,552,2
+"General Sample (2016-2024) - Including remittances (y4)",0.15,1069132.73144815,552,552,2
+"General Sample (2016-2024) - Including remittances (y4)",0.175,970916.162911166,552,552,2
+"General Sample (2016-2024) - Including remittances (y4)",0.2,797347.309186616,552,552,2
+"General Sample (2016-2024) - Including remittances (y4)",0.225,744351.697407658,552,552,2
+"General Sample (2016-2024) - Including remittances (y4)",0.25,716617.530441266,552,552,2
+"General Sample (2016-2024) - Including remittances (y4)",0.275,687434.213115047,552,552,2
+"General Sample (2016-2024) - Including remittances (y4)",0.3,657687.717409165,552,552,2
+"General Sample (2016-2024) - Including remittances (y4)",0.325,638039.372578951,552,552,2
+"General Sample (2016-2024) - Including remittances (y4)",0.35,626799.274782365,552,552,2
+"General Sample (2016-2024) - Including remittances (y4)",0.375,618031.651616669,552,552,2
+"General Sample (2016-2024) - Including remittances (y4)",0.4,613222.739388447,552,552,2
+"General Sample (2016-2024) - Including remittances (y4)",0.425,613298.406008653,552,552,2
+"General Sample (2016-2024) - Including remittances (y4)",0.45,615201.746429087,552,552,2
+"General Sample (2016-2024) - Including remittances (y4)",0.475,618117.03507235,552,552,2
+"General Sample (2016-2024) - Including remittances (y4)",0.5,620257.857571999,552,552,2
+"General Sample (2016-2024) - Including remittances (y4)",0.525,623613.297834883,552,552,2
+"General Sample (2016-2024) - Including remittances (y4)",0.55,627310.538146914,552,552,2
+"General Sample (2016-2024) - Including remittances (y4)",0.575,630282.667125959,552,552,2
+"General Sample (2016-2024) - Including remittances (y4)",0.6,633751.763446333,552,552,2
+"General Sample (2016-2024) - Including remittances (y4)",0.625,634944.00576492,552,552,2
+"General Sample (2016-2024) - Including remittances (y4)",0.65,638218.637115238,552,552,2
+"General Sample (2016-2024) - Including remittances (y4)",0.675,641919.632137689,552,552,2
+"General Sample (2016-2024) - Including remittances (y4)",0.7,643762.50824563,552,552,2
+"General Sample (2016-2024) - Including remittances (y4)",0.725,646013.745818414,552,552,2
+"General Sample (2016-2024) - Including remittances (y4)",0.75,647749.589981516,552,552,2
+"General Sample (2016-2024) - Including remittances (y4)",0.775,650532.473530303,552,552,2
+"General Sample (2016-2024) - Including remittances (y4)",0.8,653192.257429773,552,552,2
+"General Sample (2016-2024) - Including remittances (y4)",0.825,656088.32498218,552,552,2
+"General Sample (2016-2024) - Including remittances (y4)",0.85,657874.907167246,552,552,2
+"General Sample (2016-2024) - Including remittances (y4)",0.875,660129.466733138,552,552,2
+"General Sample (2016-2024) - Including remittances (y4)",0.9,660831.797425205,552,552,2
+"General Sample (2016-2024) - Including remittances (y4)",0.925,659650.917360728,552,552,2
+"General Sample (2016-2024) - Including remittances (y4)",0.95,657241.915993722,552,552,2
+"General Sample (2016-2024) - Including remittances (y4)",0.975,654337.289243246,552,552,2
+"General Sample (2016-2024) - Including remittances (y4)",1,659155.328361309,552,552,2
+"Capacity Curve: Males vs. Females Males",0.15,1388203.17375288,552,552,2
+"Capacity Curve: Males vs. Females Males",0.175,1315207.70322201,552,552,2
+"Capacity Curve: Males vs. Females Males",0.2,1265844.07815485,552,552,2
+"Capacity Curve: Males vs. Females Males",0.225,1211621.55265553,552,552,2
+"Capacity Curve: Males vs. Females Males",0.25,1165315.87451715,552,552,2
+"Capacity Curve: Males vs. Females Males",0.275,1122667.97455946,552,552,2
+"Capacity Curve: Males vs. Females Males",0.3,1081794.0183424,552,552,2
+"Capacity Curve: Males vs. Females Males",0.325,1041424.09462702,552,552,2
+"Capacity Curve: Males vs. Females Males",0.35,1021434.41705151,552,552,2
+"Capacity Curve: Males vs. Females Males",0.375,1001381.5873577,552,552,2
+"Capacity Curve: Males vs. Females Males",0.4,991189.748386077,552,552,2
+"Capacity Curve: Males vs. Females Males",0.425,990124.77841761,552,552,2
+"Capacity Curve: Males vs. Females Males",0.45,993504.63271225,552,552,2
+"Capacity Curve: Males vs. Females Males",0.475,999321.929302129,552,552,2
+"Capacity Curve: Males vs. Females Males",0.5,1011103.73777342,552,552,2
+"Capacity Curve: Males vs. Females Males",0.525,1022696.85420662,552,552,2
+"Capacity Curve: Males vs. Females Males",0.55,1029732.22420048,552,552,2
+"Capacity Curve: Males vs. Females Males",0.575,1040618.81289181,552,552,2
+"Capacity Curve: Males vs. Females Males",0.6,1057307.80040255,552,552,2
+"Capacity Curve: Males vs. Females Males",0.625,1066824.90603476,552,552,2
+"Capacity Curve: Males vs. Females Males",0.65,1073390.25927606,552,552,2
+"Capacity Curve: Males vs. Females Males",0.675,1078007.69262846,552,552,2
+"Capacity Curve: Males vs. Females Males",0.7,1087704.16084434,552,552,2
+"Capacity Curve: Males vs. Females Males",0.725,1098294.24311917,552,552,2
+"Capacity Curve: Males vs. Females Males",0.75,1105668.55996766,552,552,2
+"Capacity Curve: Males vs. Females Males",0.775,1115173.92672944,552,552,2
+"Capacity Curve: Males vs. Females Males",0.8,1123815.33205096,552,552,2
+"Capacity Curve: Males vs. Females Males",0.825,1135625.5122523,552,552,2
+"Capacity Curve: Males vs. Females Males",0.85,1147667.45926833,552,552,2
+"Capacity Curve: Males vs. Females Males",0.875,1163336.16859608,552,552,2
+"Capacity Curve: Males vs. Females Males",0.9,1178284.66415496,552,552,2
+"Capacity Curve: Males vs. Females Males",0.925,1193858.57683205,552,552,2
+"Capacity Curve: Males vs. Females Males",0.95,1200754.94177162,552,552,2
+"Capacity Curve: Males vs. Females Males",0.975,1205884.92441428,552,552,2
+"Capacity Curve: Males vs. Females Males",1,1216839.89202774,552,552,2
+"Capacity Curve: Males vs. Females Females",0.15,470594.791697345,552,552,2
+"Capacity Curve: Males vs. Females Females",0.175,468658.697802796,552,552,2
+"Capacity Curve: Males vs. Females Females",0.2,465596.294427964,552,552,2
+"Capacity Curve: Males vs. Females Females",0.225,462955.474167916,552,552,2
+"Capacity Curve: Males vs. Females Females",0.25,461881.596143765,552,552,2
+"Capacity Curve: Males vs. Females Females",0.275,461907.478595095,552,552,2
+"Capacity Curve: Males vs. Females Females",0.3,462592.348285925,552,552,2
+"Capacity Curve: Males vs. Females Females",0.325,463329.955723135,552,552,2
+"Capacity Curve: Males vs. Females Females",0.35,463294.447997632,552,552,2
+"Capacity Curve: Males vs. Females Females",0.375,463110.274186149,552,552,2
+"Capacity Curve: Males vs. Females Females",0.4,463053.96247856,552,552,2
+"Capacity Curve: Males vs. Females Females",0.425,462861.474355003,552,552,2
+"Capacity Curve: Males vs. Females Females",0.45,462644.773611591,552,552,2
+"Capacity Curve: Males vs. Females Females",0.475,462846.173828859,552,552,2
+"Capacity Curve: Males vs. Females Females",0.5,463244.250319279,552,552,2
+"Capacity Curve: Males vs. Females Females",0.525,463596.579673846,552,552,2
+"Capacity Curve: Males vs. Females Females",0.55,463933.11363023,552,552,2
+"Capacity Curve: Males vs. Females Females",0.575,464114.467946123,552,552,2
+"Capacity Curve: Males vs. Females Females",0.6,464711.307278724,552,552,2
+"Capacity Curve: Males vs. Females Females",0.625,466181.338412893,552,552,2
+"Capacity Curve: Males vs. Females Females",0.65,467790.522788076,552,552,2
+"Capacity Curve: Males vs. Females Females",0.675,469364.405330432,552,552,2
+"Capacity Curve: Males vs. Females Females",0.7,470366.391208773,552,552,2
+"Capacity Curve: Males vs. Females Females",0.725,471318.487137547,552,552,2
+"Capacity Curve: Males vs. Females Females",0.75,472464.979495655,552,552,2
+"Capacity Curve: Males vs. Females Females",0.775,473454.010743992,552,552,2
+"Capacity Curve: Males vs. Females Females",0.8,474313.098459402,552,552,2
+"Capacity Curve: Males vs. Females Females",0.825,475217.118304864,552,552,2
+"Capacity Curve: Males vs. Females Females",0.85,475887.7191558,552,552,2
+"Capacity Curve: Males vs. Females Females",0.875,476607.065720108,552,552,2
+"Capacity Curve: Males vs. Females Females",0.9,477429.583159987,552,552,2
+"Capacity Curve: Males vs. Females Females",0.925,478182.298373749,552,552,2
+"Capacity Curve: Males vs. Females Females",0.95,480119.967010113,552,552,2
+"Capacity Curve: Males vs. Females Females",0.975,483308.144732609,552,552,2
+"Capacity Curve: Males vs. Females Females",1,492997.47919613,552,552,2
+"Capacity Curve: Urban vs. Rural Urban",0.15,2995268.24022219,552,552,2
+"Capacity Curve: Urban vs. Rural Urban",0.175,2657448.70504756,552,552,2
+"Capacity Curve: Urban vs. Rural Urban",0.2,2276008.9788194,552,552,2
+"Capacity Curve: Urban vs. Rural Urban",0.225,1591974.00449023,552,552,2
+"Capacity Curve: Urban vs. Rural Urban",0.25,1378372.24629259,552,552,2
+"Capacity Curve: Urban vs. Rural Urban",0.275,984641.774405194,552,552,2
+"Capacity Curve: Urban vs. Rural Urban",0.3,792614.906179662,552,552,2
+"Capacity Curve: Urban vs. Rural Urban",0.325,732706.937935797,552,552,2
+"Capacity Curve: Urban vs. Rural Urban",0.35,757810.640094396,552,552,2
+"Capacity Curve: Urban vs. Rural Urban",0.375,820995.323215587,552,552,2
+"Capacity Curve: Urban vs. Rural Urban",0.4,909013.616208389,552,552,2
+"Capacity Curve: Urban vs. Rural Urban",0.425,1067697.6002343,552,552,2
+"Capacity Curve: Urban vs. Rural Urban",0.45,1160737.11207877,552,552,2
+"Capacity Curve: Urban vs. Rural Urban",0.475,1262218.05242177,552,552,2
+"Capacity Curve: Urban vs. Rural Urban",0.5,1305229.60086927,552,552,2
+"Capacity Curve: Urban vs. Rural Urban",0.525,1389224.04195255,552,552,2
+"Capacity Curve: Urban vs. Rural Urban",0.55,1423698.29770538,552,552,2
+"Capacity Curve: Urban vs. Rural Urban",0.575,1471497.54428508,552,552,2
+"Capacity Curve: Urban vs. Rural Urban",0.6,1496150.54111254,552,552,2
+"Capacity Curve: Urban vs. Rural Urban",0.625,1511719.65135963,552,552,2
+"Capacity Curve: Urban vs. Rural Urban",0.65,1538037.67189465,552,552,2
+"Capacity Curve: Urban vs. Rural Urban",0.675,1557280.65007862,552,552,2
+"Capacity Curve: Urban vs. Rural Urban",0.7,1575001.40931463,552,552,2
+"Capacity Curve: Urban vs. Rural Urban",0.725,1598732.99198052,552,552,2
+"Capacity Curve: Urban vs. Rural Urban",0.75,1620616.29781196,552,552,2
+"Capacity Curve: Urban vs. Rural Urban",0.775,1634971.78404298,552,552,2
+"Capacity Curve: Urban vs. Rural Urban",0.8,1650823.78969506,552,552,2
+"Capacity Curve: Urban vs. Rural Urban",0.825,1660277.57938671,552,552,2
+"Capacity Curve: Urban vs. Rural Urban",0.85,1663976.14080659,552,552,2
+"Capacity Curve: Urban vs. Rural Urban",0.875,1664130.39036067,552,552,2
+"Capacity Curve: Urban vs. Rural Urban",0.9,1646455.44571129,552,552,2
+"Capacity Curve: Urban vs. Rural Urban",0.925,1615059.06540314,552,552,2
+"Capacity Curve: Urban vs. Rural Urban",0.95,1553324.61776349,552,552,2
+"Capacity Curve: Urban vs. Rural Urban",0.975,1500151.72828406,552,552,2
+"Capacity Curve: Urban vs. Rural Urban",1,1477246.27449772,552,552,2
+"Capacity Curve: Urban vs. Rural Rural",0.15,791486.352089396,547,547,2
+"Capacity Curve: Urban vs. Rural Rural",0.175,785143.944970123,547,547,2
+"Capacity Curve: Urban vs. Rural Rural",0.2,782632.226435765,547,547,2
+"Capacity Curve: Urban vs. Rural Rural",0.225,781334.441278428,547,547,2
+"Capacity Curve: Urban vs. Rural Rural",0.25,780582.96795224,547,547,2
+"Capacity Curve: Urban vs. Rural Rural",0.275,779796.069576707,547,547,2
+"Capacity Curve: Urban vs. Rural Rural",0.3,778645.058432872,547,547,2
+"Capacity Curve: Urban vs. Rural Rural",0.325,776817.014359742,547,547,2
+"Capacity Curve: Urban vs. Rural Rural",0.35,775688.325666348,547,547,2
+"Capacity Curve: Urban vs. Rural Rural",0.375,775017.652025038,547,547,2
+"Capacity Curve: Urban vs. Rural Rural",0.4,774008.635860287,547,547,2
+"Capacity Curve: Urban vs. Rural Rural",0.425,772821.076458152,547,547,2
+"Capacity Curve: Urban vs. Rural Rural",0.45,771707.584318824,547,547,2
+"Capacity Curve: Urban vs. Rural Rural",0.475,771105.24907372,547,547,2
+"Capacity Curve: Urban vs. Rural Rural",0.5,770452.561719937,547,547,2
+"Capacity Curve: Urban vs. Rural Rural",0.525,769817.545635877,547,547,2
+"Capacity Curve: Urban vs. Rural Rural",0.55,769073.824041957,547,547,2
+"Capacity Curve: Urban vs. Rural Rural",0.575,768396.78265137,547,547,2
+"Capacity Curve: Urban vs. Rural Rural",0.6,767605.792195165,547,547,2
+"Capacity Curve: Urban vs. Rural Rural",0.625,767159.460348154,547,547,2
+"Capacity Curve: Urban vs. Rural Rural",0.65,766773.333101313,547,547,2
+"Capacity Curve: Urban vs. Rural Rural",0.675,766411.831811454,547,547,2
+"Capacity Curve: Urban vs. Rural Rural",0.7,766188.042888388,547,547,2
+"Capacity Curve: Urban vs. Rural Rural",0.725,765803.942166218,547,547,2
+"Capacity Curve: Urban vs. Rural Rural",0.75,765452.708364171,547,547,2
+"Capacity Curve: Urban vs. Rural Rural",0.775,764952.175238741,547,547,2
+"Capacity Curve: Urban vs. Rural Rural",0.8,764584.083639653,547,547,2
+"Capacity Curve: Urban vs. Rural Rural",0.825,764071.400708378,547,547,2
+"Capacity Curve: Urban vs. Rural Rural",0.85,763625.035017744,547,547,2
+"Capacity Curve: Urban vs. Rural Rural",0.875,763174.553173783,547,547,2
+"Capacity Curve: Urban vs. Rural Rural",0.9,762554.124555803,547,547,2
+"Capacity Curve: Urban vs. Rural Rural",0.925,761789.135366961,547,547,2
+"Capacity Curve: Urban vs. Rural Rural",0.95,760922.531560649,547,547,2
+"Capacity Curve: Urban vs. Rural Rural",0.975,759956.054962083,547,547,2
+"Capacity Curve: Urban vs. Rural Rural",1,756392.12845875,547,547,2
+"Capacity Curve: Urban vs. Rural Rural",1.1,756624.923791874,547,547,2
+"Capacity Curve: Urban vs. Rural Rural",1.2,756969.019192441,547,547,2
+"Capacity Curve: Urban vs. Rural Rural",1.3,757369.216106616,547,547,2
+"Capacity Curve: Urban vs. Rural Rural",1.4,757782.668461803,547,547,2
+"Capacity Curve: Urban vs. Rural Rural",1.5,758182.924932386,547,547,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.15,838395.336181444,547,547,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.175,827563.055747464,547,547,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.2,812540.826354556,547,547,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.225,792733.837627475,547,547,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.25,777910.930723852,547,547,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.275,758312.062857064,547,547,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.3,739839.925943773,547,547,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.325,719734.479522953,547,547,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.35,699885.73961999,547,547,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.375,681609.868429385,547,547,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.4,673912.877972608,547,547,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.425,670290.158564285,547,547,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.45,664385.983166413,547,547,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.475,659869.164531273,547,547,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.5,657089.515766694,547,547,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.525,653278.414706322,547,547,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.55,650009.678735828,547,547,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.575,647464.056265624,547,547,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.6,645434.260335943,547,547,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.625,643500.649453109,547,547,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.65,642431.838030464,547,547,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.675,641932.244648462,547,547,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.7,641444.537797382,547,547,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.725,640472.541417774,547,547,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.75,639880.588976672,547,547,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.775,639585.093728513,547,547,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.8,639069.078896348,547,547,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.825,638921.369908821,547,547,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.85,638519.616550851,547,547,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.875,638132.019107929,547,547,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.9,637750.59692333,547,547,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.925,637669.554467782,547,547,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.95,638391.2661771,547,547,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",0.975,640889.435830767,547,547,2
+"Capacity Curve: Indigenous vs. Non-indigenous Indigenous",1,640682.095207625,547,547,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.15,934855.280631289,460,460,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.175,917999.197677522,460,460,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.2,906096.322529933,460,460,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.225,899801.608449497,460,460,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.25,896665.40273852,460,460,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.275,895842.121393809,460,460,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.3,896124.693198118,460,460,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.325,894990.426350217,460,460,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.35,896528.940615324,460,460,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.375,904390.458062859,460,460,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.4,920585.857985053,460,460,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.425,931715.163540365,460,460,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.45,945763.352468895,460,460,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.475,959953.134765162,460,460,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.5,972116.931007321,460,460,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.525,980221.592852335,460,460,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.55,986361.527791315,460,460,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.575,996637.940109673,460,460,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.6,1003199.36988691,460,460,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.625,1011244.6567319,460,460,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.65,1020768.99026,460,460,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.675,1033812.29508189,460,460,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.7,1045015.58901071,460,460,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.725,1054741.683222,460,460,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.75,1068429.63147888,460,460,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.775,1078112.74606539,460,460,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.8,1091400.55078057,460,460,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.825,1104626.59253254,460,460,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.85,1134447.65438017,460,460,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.875,1147769.31703395,460,460,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.9,1177667.80163662,460,460,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.925,1200661.14012021,460,460,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.95,1210319.70315594,460,460,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",0.975,1214473.64250947,460,460,2
+"Capacity Curve: Indigenous vs. Non-indigenous Non-indigenous",1,1226016.83180796,460,460,2
+"Capacity Curve: By Percentile Bottom 99",0.15,277460.312518802,552,552,2
+"Capacity Curve: By Percentile Bottom 99",0.175,273770.045872575,552,552,2
+"Capacity Curve: By Percentile Bottom 99",0.2,270944.955577109,552,552,2
+"Capacity Curve: By Percentile Bottom 99",0.225,269295.258774574,552,552,2
+"Capacity Curve: By Percentile Bottom 99",0.25,267956.531253073,552,552,2
+"Capacity Curve: By Percentile Bottom 99",0.275,267068.259021524,552,552,2
+"Capacity Curve: By Percentile Bottom 99",0.3,265608.278007127,552,552,2
+"Capacity Curve: By Percentile Bottom 99",0.325,264953.218065421,552,552,2
+"Capacity Curve: By Percentile Bottom 99",0.35,264113.715783919,552,552,2
+"Capacity Curve: By Percentile Bottom 99",0.375,263458.549151959,552,552,2
+"Capacity Curve: By Percentile Bottom 99",0.4,263092.581066089,552,552,2
+"Capacity Curve: By Percentile Bottom 99",0.425,262822.867058355,552,552,2
+"Capacity Curve: By Percentile Bottom 99",0.45,262700.150466952,552,552,2
+"Capacity Curve: By Percentile Bottom 99",0.475,262526.968038668,552,552,2
+"Capacity Curve: By Percentile Bottom 99",0.5,262256.770873596,552,552,2
+"Capacity Curve: By Percentile Bottom 99",0.525,261983.398100937,552,552,2
+"Capacity Curve: By Percentile Bottom 99",0.55,261806.10271088,552,552,2
+"Capacity Curve: By Percentile Bottom 99",0.575,261676.596036766,552,552,2
+"Capacity Curve: By Percentile Bottom 99",0.6,261549.942171403,552,552,2
+"Capacity Curve: By Percentile Bottom 99",0.625,261551.032768433,552,552,2
+"Capacity Curve: By Percentile Bottom 99",0.65,261537.295828914,552,552,2
+"Capacity Curve: By Percentile Bottom 99",0.675,261739.577966568,552,552,2
+"Capacity Curve: By Percentile Bottom 99",0.7,261952.514652959,552,552,2
+"Capacity Curve: By Percentile Bottom 99",0.725,262321.559857696,552,552,2
+"Capacity Curve: By Percentile Bottom 99",0.75,262620.97619129,552,552,2
+"Capacity Curve: By Percentile Bottom 99",0.775,262844.634334992,552,552,2
+"Capacity Curve: By Percentile Bottom 99",0.8,263144.49541255,552,552,2
+"Capacity Curve: By Percentile Bottom 99",0.825,263423.013652493,552,552,2
+"Capacity Curve: By Percentile Bottom 99",0.85,263752.728383685,552,552,2
+"Capacity Curve: By Percentile Bottom 99",0.875,264300.902472808,552,552,2
+"Capacity Curve: By Percentile Bottom 99",0.9,264818.533189821,552,552,2
+"Capacity Curve: By Percentile Bottom 99",0.925,265552.649173464,552,552,2
+"Capacity Curve: By Percentile Bottom 99",0.95,266309.520645062,552,552,2
+"Capacity Curve: By Percentile Bottom 99",0.975,267013.625054213,552,552,2
+"Capacity Curve: By Percentile Bottom 99",1,269153.129650558,552,552,2
+"Capacity Curve: By Percentile Bottom 90",0.15,164133.500136772,552,552,3
+"Capacity Curve: By Percentile Bottom 90",0.175,161880.828850901,552,552,3
+"Capacity Curve: By Percentile Bottom 90",0.2,160403.334427455,552,552,3
+"Capacity Curve: By Percentile Bottom 90",0.225,159087.790082057,552,552,3
+"Capacity Curve: By Percentile Bottom 90",0.25,158552.528102192,552,552,3
+"Capacity Curve: By Percentile Bottom 90",0.275,158035.556280234,552,552,3
+"Capacity Curve: By Percentile Bottom 90",0.3,157326.289676209,552,552,3
+"Capacity Curve: By Percentile Bottom 90",0.325,156794.606461596,552,552,3
+"Capacity Curve: By Percentile Bottom 90",0.35,156598.650987098,552,552,3
+"Capacity Curve: By Percentile Bottom 90",0.375,156445.433087181,552,552,3
+"Capacity Curve: By Percentile Bottom 90",0.4,156289.549304021,552,552,3
+"Capacity Curve: By Percentile Bottom 90",0.425,156191.014089524,552,552,3
+"Capacity Curve: By Percentile Bottom 90",0.45,156166.036701947,552,552,3
+"Capacity Curve: By Percentile Bottom 90",0.475,156411.012280691,552,552,3
+"Capacity Curve: By Percentile Bottom 90",0.5,156590.005411102,552,552,3
+"Capacity Curve: By Percentile Bottom 90",0.525,156768.066131334,552,552,3
+"Capacity Curve: By Percentile Bottom 90",0.55,156935.243358348,552,552,3
+"Capacity Curve: By Percentile Bottom 90",0.575,157123.080421279,552,552,3
+"Capacity Curve: By Percentile Bottom 90",0.6,157193.18026929,552,552,3
+"Capacity Curve: By Percentile Bottom 90",0.625,157194.683117619,552,552,3
+"Capacity Curve: By Percentile Bottom 90",0.65,157159.518857731,552,552,3
+"Capacity Curve: By Percentile Bottom 90",0.675,157090.595125771,552,552,3
+"Capacity Curve: By Percentile Bottom 90",0.7,157026.603432319,552,552,3
+"Capacity Curve: By Percentile Bottom 90",0.725,156984.694911929,552,552,3
+"Capacity Curve: By Percentile Bottom 90",0.75,156922.441868276,552,552,3
+"Capacity Curve: By Percentile Bottom 90",0.775,156869.743779143,552,552,3
+"Capacity Curve: By Percentile Bottom 90",0.8,156868.710315273,552,552,3
+"Capacity Curve: By Percentile Bottom 90",0.825,156868.646188566,552,552,3
+"Capacity Curve: By Percentile Bottom 90",0.85,156912.725805454,552,552,3
+"Capacity Curve: By Percentile Bottom 90",0.875,156994.59235753,552,552,3
+"Capacity Curve: By Percentile Bottom 90",0.9,157151.6802033,552,552,3
+"Capacity Curve: By Percentile Bottom 90",0.925,157435.162257976,552,552,3
+"Capacity Curve: By Percentile Bottom 90",0.95,157728.097622713,552,552,3
+"Capacity Curve: By Percentile Bottom 90",0.975,158194.032187243,552,552,3
+"Capacity Curve: By Percentile Bottom 90",1,159081.626073183,552,552,3
+"Capacity Curve: By Percentile Bottom 50",0.15,77954.0522705724,548,548,2
+"Capacity Curve: By Percentile Bottom 50",0.175,77296.3650789523,548,548,2
+"Capacity Curve: By Percentile Bottom 50",0.2,76804.4168389428,548,548,2
+"Capacity Curve: By Percentile Bottom 50",0.225,76392.3807039158,548,548,2
+"Capacity Curve: By Percentile Bottom 50",0.25,76134.6214165218,548,548,2
+"Capacity Curve: By Percentile Bottom 50",0.275,75939.6987015903,548,548,2
+"Capacity Curve: By Percentile Bottom 50",0.3,75702.5675240394,548,548,2
+"Capacity Curve: By Percentile Bottom 50",0.325,75520.3857601471,548,548,2
+"Capacity Curve: By Percentile Bottom 50",0.35,75403.2082161761,548,548,2
+"Capacity Curve: By Percentile Bottom 50",0.375,75234.2411471858,548,548,2
+"Capacity Curve: By Percentile Bottom 50",0.4,75153.4125433735,548,548,2
+"Capacity Curve: By Percentile Bottom 50",0.425,75075.5081157202,548,548,2
+"Capacity Curve: By Percentile Bottom 50",0.45,74964.3110399287,548,548,2
+"Capacity Curve: By Percentile Bottom 50",0.475,74868.5058352511,548,548,2
+"Capacity Curve: By Percentile Bottom 50",0.5,74750.0461622375,548,548,2
+"Capacity Curve: By Percentile Bottom 50",0.525,74660.7665501961,548,548,2
+"Capacity Curve: By Percentile Bottom 50",0.55,74561.05682373,548,548,2
+"Capacity Curve: By Percentile Bottom 50",0.575,74477.0231744622,548,548,2
+"Capacity Curve: By Percentile Bottom 50",0.6,74403.1834547047,548,548,2
+"Capacity Curve: By Percentile Bottom 50",0.625,74332.4340502844,548,548,2
+"Capacity Curve: By Percentile Bottom 50",0.65,74267.4660987931,548,548,2
+"Capacity Curve: By Percentile Bottom 50",0.675,74216.910266948,548,548,2
+"Capacity Curve: By Percentile Bottom 50",0.7,74167.1461180616,548,548,2
+"Capacity Curve: By Percentile Bottom 50",0.725,74122.6323279677,548,548,2
+"Capacity Curve: By Percentile Bottom 50",0.75,74085.8923651954,548,548,2
+"Capacity Curve: By Percentile Bottom 50",0.775,74044.7644663054,548,548,2
+"Capacity Curve: By Percentile Bottom 50",0.8,74027.1373316546,548,548,2
+"Capacity Curve: By Percentile Bottom 50",0.825,74000.052070326,548,548,2
+"Capacity Curve: By Percentile Bottom 50",0.85,73983.6423708268,548,548,2
+"Capacity Curve: By Percentile Bottom 50",0.875,73953.0558814999,548,548,2
+"Capacity Curve: By Percentile Bottom 50",0.9,73937.1243838617,548,548,2
+"Capacity Curve: By Percentile Bottom 50",0.925,73920.939792469,548,548,2
+"Capacity Curve: By Percentile Bottom 50",0.95,73888.1907901027,548,548,2
+"Capacity Curve: By Percentile Bottom 50",0.975,73888.9396746644,548,548,2
+"Capacity Curve: By Percentile Bottom 50",1,73914.3088970503,548,548,2

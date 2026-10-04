@@ -11,11 +11,7 @@
 ##
 ## Purpose: Analysis
 ##
-## Changes (05 Jul 2026):
-##  - LOESS now uses R's default span (no explicit span argument).
-##  - Added pointwise 95% confidence intervals (t-distribution, se from predict()).
-
-
+## Weighted LOESS: grouped-CV span and whole-cohort bootstrap intervals.
 ## ================ Load packages ===============================
 
 library(tidyverse)
@@ -47,10 +43,10 @@ grid <- data.frame(y1_1 = seq(0, 7000, length.out = 100),
                    y4_1 = seq(0, 7000, length.out = 100))
 
 # LOESS + 95% CI for each income definition
-ci_ylab    <- loess_ci(y1_2 ~ y1_1, data_general, grid)
-ci_yad     <- loess_ci(y2_2 ~ y2_1, data_general, grid)
-ci_ynonlab <- loess_ci(y3_2 ~ y3_1, data_general, grid)
-ci_rem     <- loess_ci(y4_2 ~ y4_1, data_general, grid)
+ci_ylab    <- loess_ci(y1_2 ~ y1_1, data_general, grid, span_label = "2021-2024 General y1")
+ci_yad     <- loess_ci(y2_2 ~ y2_1, data_general, grid, span_label = "2021-2024 General y2")
+ci_ynonlab <- loess_ci(y3_2 ~ y3_1, data_general, grid, span_label = "2021-2024 General y3")
+ci_rem     <- loess_ci(y4_2 ~ y4_1, data_general, grid, span_label = "2021-2024 General y4")
 
 # Long format: one row per (x, income definition)
 grid_long <- bind_rows(
@@ -127,3 +123,4 @@ plot_capacity_curve(
 )
 
 ggsave(file.path(OUTPUT_DIR_2124, "Figure5.png"), width = 7, height = 7, dpi = 300)
+dump_span_log(file.path(OUTPUT_DIR_2124, "bandwidth_selection_summary.csv"))

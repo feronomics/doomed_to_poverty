@@ -14,13 +14,14 @@
 ##  - Se conserva `n` (tamaño de celda) en lugar de descartarlo.
 ##  - Se propagan `n_eff` (tamaño efectivo de Kish) y `se_y1..se_y4`
 ##    (errores estándar dentro de celda) que produce build_cohorts().
-##    Estos alimentan el bootstrap de dos etapas en loess_ci().
+##    Se conservan para diagnósticos de precisión de las cohortes.
 ##  - El filtro de completitud usa una lista explícita de columnas en
 ##    vez del rango posicional y1_1:y4_2 (frágil al reordenar).
 
 library(tidyverse)
 
 source("resources/pipeline_config.R")
+source("resources/functions.R")
 
 ## =============== Append Data ===================================
 

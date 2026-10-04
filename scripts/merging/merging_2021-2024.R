@@ -18,6 +18,7 @@
 library(tidyverse)
 
 source("resources/pipeline_config.R")
+source("resources/functions.R")
 
 ## =============== Append Data ===================================
 

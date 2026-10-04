@@ -1,0 +1,3 @@
+"regression","optimal_span","cv_mse","n_cohorts","n_rows","folds","seed","at_grid_boundary","weight"
+"2016-2019 bandwidth baseline",0.3,581674.447731431,96,276,10,123,FALSE,"weights_total_1"
+"2021-2024 bandwidth baseline",0.3,432988.821317913,96,276,10,123,FALSE,"weights_total_1"

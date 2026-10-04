@@ -1,0 +1,456 @@
+"regression","span","cv_mse","n_predicted","n_rows","n_extrapolated"
+"2016-2019 General y1",0.15,879761.431446753,276,276,2
+"2016-2019 General y1",0.175,784378.599540512,276,276,2
+"2016-2019 General y1",0.2,758130.147916448,276,276,2
+"2016-2019 General y1",0.225,669001.309387755,276,276,2
+"2016-2019 General y1",0.25,631332.949909229,276,276,2
+"2016-2019 General y1",0.275,600172.657101111,276,276,2
+"2016-2019 General y1",0.3,581674.447731431,276,276,2
+"2016-2019 General y1",0.325,583970.79060361,276,276,2
+"2016-2019 General y1",0.35,629326.491935828,276,276,2
+"2016-2019 General y1",0.375,768902.959647242,276,276,2
+"2016-2019 General y1",0.4,823918.852710332,276,276,2
+"2016-2019 General y1",0.425,925887.019483568,276,276,2
+"2016-2019 General y1",0.45,950572.85600287,276,276,2
+"2016-2019 General y1",0.475,961371.846791592,276,276,2
+"2016-2019 General y1",0.5,971307.088753984,276,276,2
+"2016-2019 General y1",0.525,977921.408905678,276,276,2
+"2016-2019 General y1",0.55,980257.087785779,276,276,2
+"2016-2019 General y1",0.575,985156.293737559,276,276,2
+"2016-2019 General y1",0.6,989229.660632741,276,276,2
+"2016-2019 General y1",0.625,994317.6568374,276,276,2
+"2016-2019 General y1",0.65,999341.077003074,276,276,2
+"2016-2019 General y1",0.675,1004305.15259412,276,276,2
+"2016-2019 General y1",0.7,1008366.04479043,276,276,2
+"2016-2019 General y1",0.725,1012836.85483778,276,276,2
+"2016-2019 General y1",0.75,1017566.93605647,276,276,2
+"2016-2019 General y1",0.775,1018924.5779643,276,276,2
+"2016-2019 General y1",0.8,1022953.28379791,276,276,2
+"2016-2019 General y1",0.825,1024545.65392995,276,276,2
+"2016-2019 General y1",0.85,1019515.34572198,276,276,2
+"2016-2019 General y1",0.875,1013180.48823121,276,276,2
+"2016-2019 General y1",0.9,993709.365348761,276,276,2
+"2016-2019 General y1",0.925,970334.873034508,276,276,2
+"2016-2019 General y1",0.95,934844.912677821,276,276,2
+"2016-2019 General y1",0.975,918232.214064185,276,276,2
+"2016-2019 General y1",1,910556.717251473,276,276,2
+"2016-2019 General y2",0.15,834766.342106299,276,276,2
+"2016-2019 General y2",0.175,748261.854026619,276,276,2
+"2016-2019 General y2",0.2,714994.992903648,276,276,2
+"2016-2019 General y2",0.225,631960.495287412,276,276,2
+"2016-2019 General y2",0.25,598612.253176195,276,276,2
+"2016-2019 General y2",0.275,579855.880317688,276,276,2
+"2016-2019 General y2",0.3,578222.062720463,276,276,2
+"2016-2019 General y2",0.325,587376.173485686,276,276,2
+"2016-2019 General y2",0.35,634890.007624192,276,276,2
+"2016-2019 General y2",0.375,782079.862964527,276,276,2
+"2016-2019 General y2",0.4,833956.505288009,276,276,2
+"2016-2019 General y2",0.425,922739.992556095,276,276,2
+"2016-2019 General y2",0.45,933408.260738266,276,276,2
+"2016-2019 General y2",0.475,947552.49410598,276,276,2
+"2016-2019 General y2",0.5,955065.041953943,276,276,2
+"2016-2019 General y2",0.525,960238.838014563,276,276,2
+"2016-2019 General y2",0.55,965770.967405281,276,276,2
+"2016-2019 General y2",0.575,971450.916755855,276,276,2
+"2016-2019 General y2",0.6,973491.539128277,276,276,2
+"2016-2019 General y2",0.625,977756.690360064,276,276,2
+"2016-2019 General y2",0.65,980110.35446876,276,276,2
+"2016-2019 General y2",0.675,986200.246142442,276,276,2
+"2016-2019 General y2",0.7,991189.360650645,276,276,2
+"2016-2019 General y2",0.725,992366.783300687,276,276,2
+"2016-2019 General y2",0.75,994406.589832532,276,276,2
+"2016-2019 General y2",0.775,995937.523265153,276,276,2
+"2016-2019 General y2",0.8,999847.115759891,276,276,2
+"2016-2019 General y2",0.825,1000836.11024718,276,276,2
+"2016-2019 General y2",0.85,998055.713244509,276,276,2
+"2016-2019 General y2",0.875,988584.873840634,276,276,2
+"2016-2019 General y2",0.9,972407.752960556,276,276,2
+"2016-2019 General y2",0.925,946531.248233975,276,276,2
+"2016-2019 General y2",0.95,920851.20326405,276,276,2
+"2016-2019 General y2",0.975,896394.582992392,276,276,2
+"2016-2019 General y2",1,882822.263979143,276,276,2
+"2016-2019 General y3",0.15,1127595.14361853,276,276,2
+"2016-2019 General y3",0.175,753809.279036606,276,276,2
+"2016-2019 General y3",0.2,675289.28968439,276,276,2
+"2016-2019 General y3",0.225,640986.014050486,276,276,2
+"2016-2019 General y3",0.25,636590.957047738,276,276,2
+"2016-2019 General y3",0.275,634011.442777994,276,276,2
+"2016-2019 General y3",0.3,633434.333230391,276,276,2
+"2016-2019 General y3",0.325,632180.311540579,276,276,2
+"2016-2019 General y3",0.35,631411.316294877,276,276,2
+"2016-2019 General y3",0.375,657563.95422698,276,276,2
+"2016-2019 General y3",0.4,672521.140523483,276,276,2
+"2016-2019 General y3",0.425,689639.77199078,276,276,2
+"2016-2019 General y3",0.45,699533.614723953,276,276,2
+"2016-2019 General y3",0.475,703734.12448225,276,276,2
+"2016-2019 General y3",0.5,705465.491087276,276,276,2
+"2016-2019 General y3",0.525,710028.714038357,276,276,2
+"2016-2019 General y3",0.55,713474.039883875,276,276,2
+"2016-2019 General y3",0.575,716416.03119706,276,276,2
+"2016-2019 General y3",0.6,717935.055676381,276,276,2
+"2016-2019 General y3",0.625,718650.57307086,276,276,2
+"2016-2019 General y3",0.65,720633.612882693,276,276,2
+"2016-2019 General y3",0.675,723616.502471936,276,276,2
+"2016-2019 General y3",0.7,727211.898189883,276,276,2
+"2016-2019 General y3",0.725,730748.19334957,276,276,2
+"2016-2019 General y3",0.75,734215.510625878,276,276,2
+"2016-2019 General y3",0.775,736070.25426006,276,276,2
+"2016-2019 General y3",0.8,737724.008105848,276,276,2
+"2016-2019 General y3",0.825,744009.473854608,276,276,2
+"2016-2019 General y3",0.85,752040.526603795,276,276,2
+"2016-2019 General y3",0.875,757505.483500257,276,276,2
+"2016-2019 General y3",0.9,761484.079959672,276,276,2
+"2016-2019 General y3",0.925,763227.744106908,276,276,2
+"2016-2019 General y3",0.95,761222.514957737,276,276,2
+"2016-2019 General y3",0.975,757529.682144769,276,276,2
+"2016-2019 General y3",1,760878.11371638,276,276,2
+"2016-2019 General y4",0.15,919621.164598919,276,276,2
+"2016-2019 General y4",0.175,683779.237858289,276,276,2
+"2016-2019 General y4",0.2,631309.490813732,276,276,2
+"2016-2019 General y4",0.225,630566.504767454,276,276,2
+"2016-2019 General y4",0.25,632823.686495143,276,276,2
+"2016-2019 General y4",0.275,628554.684229587,276,276,2
+"2016-2019 General y4",0.3,626051.38290784,276,276,2
+"2016-2019 General y4",0.325,626319.785845857,276,276,2
+"2016-2019 General y4",0.35,627375.785080176,276,276,2
+"2016-2019 General y4",0.375,655429.080261695,276,276,2
+"2016-2019 General y4",0.4,673720.152078634,276,276,2
+"2016-2019 General y4",0.425,689270.235545585,276,276,2
+"2016-2019 General y4",0.45,703745.041863215,276,276,2
+"2016-2019 General y4",0.475,706797.915507894,276,276,2
+"2016-2019 General y4",0.5,710031.984389637,276,276,2
+"2016-2019 General y4",0.525,713060.918178878,276,276,2
+"2016-2019 General y4",0.55,717859.426360336,276,276,2
+"2016-2019 General y4",0.575,722213.789833113,276,276,2
+"2016-2019 General y4",0.6,723442.341871854,276,276,2
+"2016-2019 General y4",0.625,724285.856122052,276,276,2
+"2016-2019 General y4",0.65,727130.4980927,276,276,2
+"2016-2019 General y4",0.675,729013.391685157,276,276,2
+"2016-2019 General y4",0.7,731562.648109783,276,276,2
+"2016-2019 General y4",0.725,738005.137157455,276,276,2
+"2016-2019 General y4",0.75,740778.168797903,276,276,2
+"2016-2019 General y4",0.775,744370.577063118,276,276,2
+"2016-2019 General y4",0.8,748036.055498756,276,276,2
+"2016-2019 General y4",0.825,751578.984672308,276,276,2
+"2016-2019 General y4",0.85,756304.053333531,276,276,2
+"2016-2019 General y4",0.875,765968.819511181,276,276,2
+"2016-2019 General y4",0.9,768481.736922267,276,276,2
+"2016-2019 General y4",0.925,768761.5776675,276,276,2
+"2016-2019 General y4",0.95,765591.951846037,276,276,2
+"2016-2019 General y4",0.975,761348.344253568,276,276,2
+"2016-2019 General y4",1,763643.345164079,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Males",0.15,1384877.18141347,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Males",0.175,1275204.96973903,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Males",0.2,1206045.52113931,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Males",0.225,1183161.80725187,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Males",0.25,1176921.07332754,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Males",0.275,1175151.88105902,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Males",0.3,1174607.98388293,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Males",0.325,1171819.27291721,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Males",0.35,1176416.66193423,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Males",0.375,1200708.78109093,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Males",0.4,1211226.31403002,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Males",0.425,1263307.82886458,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Males",0.45,1288769.30986577,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Males",0.475,1303618.54245303,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Males",0.5,1306754.01417356,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Males",0.525,1313467.93875321,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Males",0.55,1320343.32899594,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Males",0.575,1333143.13920255,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Males",0.6,1342511.41398438,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Males",0.625,1345102.29724264,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Males",0.65,1349554.18904874,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Males",0.675,1365532.02676837,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Males",0.7,1369512.29776328,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Males",0.725,1377127.85275313,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Males",0.75,1390679.86267057,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Males",0.775,1396330.86430008,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Males",0.8,1408259.82506268,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Males",0.825,1422571.86949972,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Males",0.85,1449056.17238026,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Males",0.875,1471657.30283304,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Males",0.9,1511012.66051999,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Males",0.925,1528937.55525831,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Males",0.95,1548833.86134245,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Males",0.975,1553094.31368033,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Males",1,1567561.16013358,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Females",0.15,366362.849487635,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Females",0.175,362329.079112833,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Females",0.2,359719.96141298,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Females",0.225,360290.879075497,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Females",0.25,360254.885802965,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Females",0.275,361806.533633046,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Females",0.3,360907.791817856,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Females",0.325,360461.44222988,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Females",0.35,359515.275510876,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Females",0.375,358708.056082967,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Females",0.4,359398.593620263,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Females",0.425,360268.974369609,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Females",0.45,361947.758214581,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Females",0.475,363049.609401576,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Females",0.5,362685.285364345,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Females",0.525,363530.944315088,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Females",0.55,364685.184477319,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Females",0.575,364741.211791946,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Females",0.6,365308.364839365,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Females",0.625,366650.339992397,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Females",0.65,369141.834189491,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Females",0.675,370800.790348218,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Females",0.7,372114.327056981,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Females",0.725,373146.01819976,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Females",0.75,375043.322208877,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Females",0.775,376106.636106447,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Females",0.8,377044.690741475,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Females",0.825,377827.109148855,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Females",0.85,378562.147558745,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Females",0.875,379086.726033281,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Females",0.9,380058.859305294,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Females",0.925,379848.62891711,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Females",0.95,380736.692634917,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Females",0.975,383419.987444469,276,276,2
+"Capacity Curve 2016 - 2019: Males vs. Females Females",1,397114.816197403,276,276,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Urban",0.15,6209641.96992653,276,276,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Urban",0.175,4888933.34963907,276,276,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Urban",0.2,3705978.58896789,276,276,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Urban",0.225,2928624.8472855,276,276,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Urban",0.25,2187238.82080892,276,276,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Urban",0.275,1686403.60035439,276,276,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Urban",0.3,1263686.67199817,276,276,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Urban",0.325,1032194.01872428,276,276,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Urban",0.35,1006553.11610535,276,276,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Urban",0.375,1063664.66737965,276,276,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Urban",0.4,1171496.27240456,276,276,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Urban",0.425,1210606.54299866,276,276,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Urban",0.45,1278637.79094529,276,276,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Urban",0.475,1350826.26403923,276,276,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Urban",0.5,1394465.70644199,276,276,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Urban",0.525,1403594.86556637,276,276,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Urban",0.55,1422302.60924545,276,276,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Urban",0.575,1444179.54390093,276,276,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Urban",0.6,1478129.05057898,276,276,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Urban",0.625,1516517.32053006,276,276,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Urban",0.65,1543223.52145193,276,276,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Urban",0.675,1576574.91548347,276,276,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Urban",0.7,1600901.6980756,276,276,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Urban",0.725,1631571.9259641,276,276,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Urban",0.75,1650194.93064348,276,276,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Urban",0.775,1688512.43163273,276,276,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Urban",0.8,1728998.88238352,276,276,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Urban",0.825,1740018.05386403,276,276,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Urban",0.85,1774897.09999265,276,276,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Urban",0.875,1828394.53317492,276,276,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Urban",0.9,1849986.65328812,276,276,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Urban",0.925,1856648.12675669,276,276,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Urban",0.95,1842725.60502625,276,276,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Urban",0.975,1823920.82000673,276,276,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Urban",1,1826768.76023188,276,276,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Rural",0.15,578583.01290636,271,271,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Rural",0.175,569234.170407486,271,271,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Rural",0.2,564590.672101991,271,271,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Rural",0.225,565228.515910606,271,271,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Rural",0.25,560240.326380763,271,271,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Rural",0.275,559043.306619596,271,271,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Rural",0.3,560380.083436166,271,271,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Rural",0.325,563608.501456285,271,271,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Rural",0.35,563739.129024905,271,271,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Rural",0.375,563864.224823806,271,271,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Rural",0.4,564837.568998519,271,271,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Rural",0.425,565348.517987794,271,271,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Rural",0.45,565091.698944309,271,271,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Rural",0.475,564560.908389003,271,271,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Rural",0.5,565591.535928727,271,271,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Rural",0.525,566792.539777364,271,271,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Rural",0.55,567418.624640887,271,271,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Rural",0.575,567423.79357692,271,271,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Rural",0.6,567924.386807934,271,271,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Rural",0.625,568489.113082334,271,271,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Rural",0.65,568538.907115305,271,271,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Rural",0.675,568635.237678105,271,271,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Rural",0.7,569336.37820858,271,271,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Rural",0.725,571063.918307636,271,271,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Rural",0.75,572692.570050575,271,271,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Rural",0.775,576151.967135741,271,271,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Rural",0.8,579393.474499243,271,271,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Rural",0.825,582473.88278947,271,271,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Rural",0.85,585483.10542014,271,271,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Rural",0.875,589233.987317227,271,271,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Rural",0.9,594596.539932357,271,271,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Rural",0.925,600221.617925153,271,271,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Rural",0.95,606294.778943148,271,271,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Rural",0.975,609982.790594155,271,271,2
+"Capacity Curve 2016 - 2019: Urban vs. Rural Rural",1,615589.947621019,271,271,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Indigenous",0.15,313782.150666107,271,271,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Indigenous",0.175,306999.554568988,271,271,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Indigenous",0.2,302733.51092234,271,271,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Indigenous",0.225,299495.501824597,271,271,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Indigenous",0.25,295073.937820269,271,271,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Indigenous",0.275,292920.202144038,271,271,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Indigenous",0.3,291159.413730934,271,271,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Indigenous",0.325,289281.030604142,271,271,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Indigenous",0.35,287632.528803777,271,271,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Indigenous",0.375,286498.575860269,271,271,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Indigenous",0.4,285383.53978007,271,271,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Indigenous",0.425,284391.001168418,271,271,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Indigenous",0.45,283474.889663234,271,271,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Indigenous",0.475,282707.062411962,271,271,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Indigenous",0.5,281852.029599212,271,271,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Indigenous",0.525,281018.990553604,271,271,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Indigenous",0.55,280707.497580858,271,271,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Indigenous",0.575,280550.239168016,271,271,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Indigenous",0.6,280298.835563584,271,271,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Indigenous",0.625,280038.954477623,271,271,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Indigenous",0.65,279870.996472991,271,271,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Indigenous",0.675,279827.781153679,271,271,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Indigenous",0.7,279970.670849639,271,271,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Indigenous",0.725,280619.790211122,271,271,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Indigenous",0.75,281070.86931994,271,271,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Indigenous",0.775,281478.10395454,271,271,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Indigenous",0.8,282254.770136262,271,271,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Indigenous",0.825,282370.772998739,271,271,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Indigenous",0.85,282682.918070077,271,271,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Indigenous",0.875,282508.763697248,271,271,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Indigenous",0.9,282431.903139657,271,271,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Indigenous",0.925,282610.937185955,271,271,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Indigenous",0.95,282556.286518136,271,271,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Indigenous",0.975,282939.329950422,271,271,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Indigenous",1,285151.313323694,271,271,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Non-indigenous",0.15,3721809.54585861,276,276,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Non-indigenous",0.175,2783279.8869954,276,276,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Non-indigenous",0.2,2198805.16514801,276,276,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Non-indigenous",0.225,1784619.75026733,276,276,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Non-indigenous",0.25,1445672.56491699,276,276,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Non-indigenous",0.275,1277596.50137517,276,276,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Non-indigenous",0.3,1158830.51672727,276,276,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Non-indigenous",0.325,1101246.31193531,276,276,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Non-indigenous",0.35,1076191.93748136,276,276,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Non-indigenous",0.375,1150092.82776238,276,276,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Non-indigenous",0.4,1332496.38406942,276,276,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Non-indigenous",0.425,1460763.53130135,276,276,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Non-indigenous",0.45,1531534.82424206,276,276,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Non-indigenous",0.475,1550396.72667461,276,276,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Non-indigenous",0.5,1580354.69641533,276,276,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Non-indigenous",0.525,1600807.46312687,276,276,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Non-indigenous",0.55,1616776.02180598,276,276,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Non-indigenous",0.575,1648197.94022292,276,276,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Non-indigenous",0.6,1674535.04545213,276,276,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Non-indigenous",0.625,1723745.11194518,276,276,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Non-indigenous",0.65,1741003.78785812,276,276,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Non-indigenous",0.675,1760611.41432766,276,276,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Non-indigenous",0.7,1791911.28868227,276,276,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Non-indigenous",0.725,1812254.86106679,276,276,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Non-indigenous",0.75,1835086.81420369,276,276,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Non-indigenous",0.775,1854421.4472487,276,276,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Non-indigenous",0.8,1879813.79120881,276,276,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Non-indigenous",0.825,1910667.34244044,276,276,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Non-indigenous",0.85,1948339.84589737,276,276,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Non-indigenous",0.875,1981619.42567158,276,276,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Non-indigenous",0.9,2005327.96759731,276,276,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Non-indigenous",0.925,2007073.43152862,276,276,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Non-indigenous",0.95,1986217.74025074,276,276,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Non-indigenous",0.975,1956030.10276416,276,276,2
+"Capacity Curve 2016-2019: Indigenous vs. Non-indigenous Non-indigenous",1,1935641.5107741,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 99",0.15,141200.537516439,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 99",0.175,139353.689903937,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 99",0.2,138667.052611492,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 99",0.225,137922.439918823,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 99",0.25,136672.017261361,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 99",0.275,135556.923804938,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 99",0.3,134814.945997695,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 99",0.325,134542.044758314,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 99",0.35,134483.870360635,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 99",0.375,134490.527088125,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 99",0.4,134240.275341721,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 99",0.425,134176.256949536,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 99",0.45,134036.827033785,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 99",0.475,133925.894448578,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 99",0.5,133830.546505113,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 99",0.525,133581.655095647,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 99",0.55,133652.622011979,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 99",0.575,133337.116134606,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 99",0.6,133374.802953299,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 99",0.625,133539.852109071,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 99",0.65,133889.119555179,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 99",0.675,134432.271117287,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 99",0.7,134684.344930632,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 99",0.725,134962.041378059,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 99",0.75,135176.269335471,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 99",0.775,135365.626936135,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 99",0.8,135518.379689309,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 99",0.825,135568.748130103,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 99",0.85,135663.422318067,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 99",0.875,135813.308151072,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 99",0.9,136052.341836183,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 99",0.925,136428.621553047,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 99",0.95,136915.615927668,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 99",0.975,137336.658306481,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 99",1,138698.438755736,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 90",0.15,91713.9081229853,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 90",0.175,90550.0450338105,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 90",0.2,89788.4596953319,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 90",0.225,89638.4144530892,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 90",0.25,89161.0271853823,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 90",0.275,88689.9356853397,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 90",0.3,88233.6198401729,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 90",0.325,87772.6904393431,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 90",0.35,87602.5652099026,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 90",0.375,87891.5096903075,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 90",0.4,88397.0007917413,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 90",0.425,89419.3408457274,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 90",0.45,89840.1327148039,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 90",0.475,90127.7309845574,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 90",0.5,90252.7927536125,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 90",0.525,90285.4285668259,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 90",0.55,90349.2493584209,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 90",0.575,90413.9462109502,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 90",0.6,90612.3892295795,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 90",0.625,90770.850884933,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 90",0.65,90731.6620225834,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 90",0.675,90858.1921343647,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 90",0.7,90979.7256834289,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 90",0.725,91126.8258945858,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 90",0.75,91349.9114165947,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 90",0.775,91589.8825361394,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 90",0.8,91752.8607478997,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 90",0.825,91877.6318039151,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 90",0.85,91983.3425822095,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 90",0.875,92018.3067344758,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 90",0.9,92177.3124478667,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 90",0.925,92379.1154409839,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 90",0.95,92561.9612134522,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 90",0.975,93079.569979924,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 90",1,94230.4201928415,276,276,2
+"Capacity Curve 2016-2019: By Percentile Bottom 50",0.15,58605.0951511744,272,272,3
+"Capacity Curve 2016-2019: By Percentile Bottom 50",0.175,58642.4328419557,272,272,3
+"Capacity Curve 2016-2019: By Percentile Bottom 50",0.2,58138.4436985565,272,272,3
+"Capacity Curve 2016-2019: By Percentile Bottom 50",0.225,57994.308017539,272,272,3
+"Capacity Curve 2016-2019: By Percentile Bottom 50",0.25,57734.7856853094,272,272,3
+"Capacity Curve 2016-2019: By Percentile Bottom 50",0.275,57437.5135856327,272,272,3
+"Capacity Curve 2016-2019: By Percentile Bottom 50",0.3,57287.2465813561,272,272,3
+"Capacity Curve 2016-2019: By Percentile Bottom 50",0.325,57083.7311678959,272,272,3
+"Capacity Curve 2016-2019: By Percentile Bottom 50",0.35,56999.2516695822,272,272,3
+"Capacity Curve 2016-2019: By Percentile Bottom 50",0.375,56943.1168448535,272,272,3
+"Capacity Curve 2016-2019: By Percentile Bottom 50",0.4,56860.7441674819,272,272,3
+"Capacity Curve 2016-2019: By Percentile Bottom 50",0.425,56815.4115202938,272,272,3
+"Capacity Curve 2016-2019: By Percentile Bottom 50",0.45,56697.9892106911,272,272,3
+"Capacity Curve 2016-2019: By Percentile Bottom 50",0.475,56622.445348156,272,272,3
+"Capacity Curve 2016-2019: By Percentile Bottom 50",0.5,56515.2643694542,272,272,3
+"Capacity Curve 2016-2019: By Percentile Bottom 50",0.525,56428.5563451053,272,272,3
+"Capacity Curve 2016-2019: By Percentile Bottom 50",0.55,56370.705913292,272,272,3
+"Capacity Curve 2016-2019: By Percentile Bottom 50",0.575,56268.6967807174,272,272,3
+"Capacity Curve 2016-2019: By Percentile Bottom 50",0.6,56172.0748325937,272,272,3
+"Capacity Curve 2016-2019: By Percentile Bottom 50",0.625,56063.8483803329,272,272,3
+"Capacity Curve 2016-2019: By Percentile Bottom 50",0.65,55954.3936145026,272,272,3
+"Capacity Curve 2016-2019: By Percentile Bottom 50",0.675,55818.8990116681,272,272,3
+"Capacity Curve 2016-2019: By Percentile Bottom 50",0.7,55681.4821000758,272,272,3
+"Capacity Curve 2016-2019: By Percentile Bottom 50",0.725,55541.6936702721,272,272,3
+"Capacity Curve 2016-2019: By Percentile Bottom 50",0.75,55408.0226440274,272,272,3
+"Capacity Curve 2016-2019: By Percentile Bottom 50",0.775,55232.9370081804,272,272,3
+"Capacity Curve 2016-2019: By Percentile Bottom 50",0.8,55121.3081202725,272,272,3
+"Capacity Curve 2016-2019: By Percentile Bottom 50",0.825,55031.2134630321,272,272,3
+"Capacity Curve 2016-2019: By Percentile Bottom 50",0.85,54970.810479014,272,272,3
+"Capacity Curve 2016-2019: By Percentile Bottom 50",0.875,54890.4043446662,272,272,3
+"Capacity Curve 2016-2019: By Percentile Bottom 50",0.9,54891.6030897356,272,272,3
+"Capacity Curve 2016-2019: By Percentile Bottom 50",0.925,54875.5528715241,272,272,3
+"Capacity Curve 2016-2019: By Percentile Bottom 50",0.95,54894.9358927074,272,272,3
+"Capacity Curve 2016-2019: By Percentile Bottom 50",0.975,54961.7259589048,272,272,3
+"Capacity Curve 2016-2019: By Percentile Bottom 50",1,55202.5377009491,272,272,3

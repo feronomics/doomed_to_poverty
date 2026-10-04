@@ -1,0 +1,26 @@
+% Generated from project outputs. Do not edit by hand.
+\begin{table}[!htbp]
+\centering
+\begin{threeparttable}
+\caption{Capacity-curve sensitivity: age 2021-2024 fixed\_baseline}
+\label{tab:robustness-age-2021-2024-fixed-baseline}
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabularx}{\linewidth}{@{}Xrrrrr@{}}
+\toprule
+Variant & Span & Q500 & Q1500 & Q3000 & Q5000 \\
+\midrule
+Main (14-60) & 0.300 & 894.0 & 2,127.8 & 3,298.0 & 5,060.5 \\
+v1 (13-59) & 0.300 & 910.1 & 2,107.1 & 3,288.6 & 5,071.6 \\
+v2 (15-61) & 0.300 & 971.1 & 2,116.0 & 3,259.8 & 5,056.5 \\
+v3 (12-58) & 0.300 & 871.0 & 2,105.0 & 3,290.9 & 5,050.6 \\
+v4 (16-62) & 0.300 & -- & 2,120.7 & 3,273.0 & 5,055.1 \\
+\bottomrule
+\end{tabularx}
+\begin{tablenotes}[flushleft]
+\footnotesize
+\item Entries are predicted income at t+1 (quetzales); column headings give income at t. General sample, labor income, population-weighted LOESS. -- indicates no supported prediction. Retuned selects a span for each cutoff; fixed\_baseline holds the main-sample span fixed.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

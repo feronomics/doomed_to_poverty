@@ -15,7 +15,7 @@
 ## data/processed/main/ and output/main/.
 ##
 ## To run it under a different cutoff manually (rarely needed -- see
-## scripts/robustness/run_age_cutoff_robustness.R for the batteries of
+## scripts/robustness/run_age_robustness.R for the batteries of
 ## checks the study reports), set AGE_MIN / AGE_MAX / RUN_ID before
 ## calling Rscript, e.g. from a shell:
 ##
@@ -33,13 +33,22 @@ cat(log_msg_start, "\n")
 
 ## ---- 1. Cleaning: builds data/processed/<RUN_ID>/income_YYYY.csv ---------
 source("scripts/cleaning/clean_master.R")
+source("scripts/analysis/export_small_cell_reports.R")
 
-## ---- 2. Merging: builds the two panel files used by the analyses ---------
+## ---- 2. Merging: builds the three panel files used by the analyses ---------
 source("scripts/merging/merging_2016-2019.R")
 source("scripts/merging/merging_2021-2024.R")
+source("scripts/merging/merging_all.R")
 
 ## ---- 3. Analysis: builds Figures 1-5 for each period ----------------------
 source("scripts/analysis/01 Analysis 2016-2019.R")
 source("scripts/analysis/01 Analysis 2021-2024.R")
+source("scripts/analysis/01 Analysis_General_Sample.R")
 
-cat(sprintf("Done. Processed data in %s | Figures in %s\n", PROCESSED_DIR, OUTPUT_DIR))
+## ---- 4. Descriptive statistics for all three analysis windows --------
+source("scripts/analysis/02 Descriptive Statistics 2016-2019.R")
+source("scripts/analysis/02 Descriptive Statistics 2021-2024.R")
+source("scripts/analysis/02 Descriptive Statistics 2016-2024.R")
+
+source("scripts/analysis/export_latex_tables.R")
+cat(sprintf("Done. Processed data in %s | Figures and LaTeX tables in %s\n", PROCESSED_DIR, OUTPUT_DIR))
