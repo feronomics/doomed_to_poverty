@@ -11,8 +11,6 @@ All the data used on this research was from ENEI and ENCOVI. ENCOVI it's made ev
 
 # Methodology
 
-The idea of ENEI it's to track the dynamic incomes, so we
-
 ## Weighted capacity curves and uncertainty
 
 Run commands from the repository root:
