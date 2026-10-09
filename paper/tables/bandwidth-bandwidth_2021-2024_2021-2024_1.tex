@@ -1,0 +1,34 @@
+% Generated from project outputs. Do not edit by hand.
+\begin{table}[!htbp]
+\centering
+\begin{threeparttable}
+\caption{LOESS bandwidth selection: 2021-2024 2021-2024}
+\label{tab:bandwidth-2021-2024-2021-2024-1}
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabularx}{\linewidth}{@{}Xrrrrr@{}}
+\toprule
+Regression & Span & CV MSE & Cohorts & N & Edge \\
+\midrule
+General: labor & 0.300 & 432,988.8 & 96 & 276 & No \\
+General: in-kind & 0.300 & 430,655.2 & 96 & 276 & No \\
+General: nonlabor & 0.625 & 481,497.5 & 96 & 276 & No \\
+General: remittances & 0.425 & 496,454.6 & 96 & 276 & No \\
+Males vs. Females Males & 0.600 & 633,770.2 & 96 & 276 & No \\
+Males vs. Females Females & 0.925 & 589,278.8 & 96 & 276 & No \\
+Urban vs. Rural Urban & 0.600 & 474,027.2 & 96 & 276 & No \\
+Urban vs. Rural Rural & 1.000 & 926,858.7 & 96 & 276 & No \\
+Indigenous vs. Non-indigenous Indigenous & 0.850 & 827,857.0 & 96 & 276 & No \\
+Indigenous vs. Non-indigenous Non-indigenous & 0.625 & 590,777.5 & 94 & 184 & No \\
+By Percentile Bottom 99 & 0.675 & 357,618.3 & 96 & 276 & No \\
+By Percentile Bottom 90 & 0.825 & 195,622.5 & 96 & 276 & No \\
+By Percentile Bottom 50 & 0.775 & 73,718.3 & 96 & 276 & No \\
+\bottomrule
+\end{tabularx}
+\begin{tablenotes}[flushleft]
+\footnotesize
+\item Population-weighted cohort-grouped cross-validation; MSE is in squared quetzales. N counts transitions. Edge indicates a search-boundary selection, not an interior optimum. Folds: 10 ; seed: 123 ; regression weights: weights\_total\_1
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

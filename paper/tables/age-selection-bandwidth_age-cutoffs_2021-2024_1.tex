@@ -1,0 +1,26 @@
+% Generated from project outputs. Do not edit by hand.
+\begin{table}[!htbp]
+\centering
+\begin{threeparttable}
+\caption{LOESS bandwidth selection: age\_cutoffs 2021-2024}
+\label{tab:bandwidth-age-cutoffs-2021-2024-1}
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabularx}{\linewidth}{@{}Xrrrrr@{}}
+\toprule
+Regression & Span & CV MSE & Cohorts & N & Edge \\
+\midrule
+age baseline & 0.300 & 432,988.8 & 96 & 276 & No \\
+age v1 (13-59) & 0.675 & 431,422.2 & 94 & 274 & No \\
+age v2 (15-61) & 0.600 & 436,401.3 & 96 & 276 & No \\
+age v3 (12-58) & 0.325 & 427,820.6 & 94 & 271 & No \\
+age v4 (16-62) & 0.425 & 451,276.9 & 96 & 276 & No \\
+\bottomrule
+\end{tabularx}
+\begin{tablenotes}[flushleft]
+\footnotesize
+\item Population-weighted cohort-grouped cross-validation; MSE is in squared quetzales. N counts transitions. Edge indicates a search-boundary selection, not an interior optimum. Folds: 10 ; seed: 123 ; regression weights: weights\_total\_1
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
